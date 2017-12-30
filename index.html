@@ -89,17 +89,32 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2 >Published research</h2>
+              <ul class="accordion">
+                <li>Endogenous Comparative Advantage 
+                  (<a href="http://andreamoro.net/perm/papers/endogenous_comparative_advantage.pdf">paper pdf</a>)
+		
+									  <span class="acc_trigger">(more...)</span>
+										<ul>
+											<li>
+											Yay content!
+											</li>
+										</ul>
+	   
+								</li>
+              </ul>  
+              
+              
               <ul class="accordion" >
-		<li >
-                 <p class=acc_trigger> 
-			 Endogenous Comparative Advantagebbb
-		    <div>
-			    <a href="http://andreamoro.net/perm/papers/endogenous_comparative_advantage.pdf"> papera pdf
-     			  </a>      
-		          Yay content!
-		     </div>   
-		   </p>   
-		 </li>     
+								<li >
+       			     	<p class=acc_trigger> 
+			 						Endogenous Comparative Advantage
+		   			 			<div>
+										<a href="http://andreamoro.net/perm/papers/endogenous_comparative_advantage.pdf"> Paper pdf
+										</a>      
+										Yay content!
+						     </div>   
+		   					 </p>   
+		 						</li>     
 		     
 	      <li> <a href="http://www.andreamoro.net/perm/papers/the_effect_of_job_flexibility.pdf">
         The Effect of Job Flexibility on Women Labor Market Outcomes: Estimates from a Search and Bargaining Model            (06/23/12)
@@ -184,7 +199,34 @@
     <script src="js/scrolling-nav.js"></script>
     
 
-	<script>
+		<script>
+			jQuery(document).ready(function ($) {
+			//Set default open/close settings
+			var divs=$('.accordion>li>ul').hide(); //Hide/close all containers
+
+			var h2s=$('.accordion>li>span').click(function () {
+				h2s.not(this).removeClass('active')
+				$(this).toggleClass('active')
+				divs.not($(this).next('ul')).slideUp()
+				$(this).next('ul').slideToggle()
+				return false; //Prevent the browser jump to the link anchor
+				});
+			});
+			
+			/*
+		<ul class="accordion" >
+			<li >
+       <p class=acc_trigger> 
+			 Endogenous Comparative Advantagebbb
+		    <div>
+			    <a href="http://andreamoro.net/perm/papers/endogenous_comparative_advantage.pdf"> papera pdf
+     			  </a>      
+		          Yay content!
+		     </div>   
+		   </p>   
+		 </li>  
+			
+			
 		jQuery(document).ready(function ($) {
 		//Set default open/close settings
 		var divs=$('.accordion>li>div').hide(); //Hide/close all containers
@@ -198,7 +240,9 @@
 
 		});
 		});
-	</script> 
+*/
+
+		</script> 
 
   </body>
 
