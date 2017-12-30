@@ -92,7 +92,7 @@
               <ul class="accordion" >
 		<li >
                  <p class=acc_trigger> 
-			 Endogenous Comparative Advantage
+			 Endogenous Comparative Advantagebbb
 		    <div>
 			    <a href="http://andreamoro.net/perm/papers/endogenous_comparative_advantage.pdf"> ansa babba
      			  </a>      
@@ -192,8 +192,8 @@
 		var h2s=$('.accordion>li').click(function () {
 			h2s.not(this).removeClass('active')
 			$(this).toggleClass('active')
-			divs.not($(this).children('p')).slideUp()
-			$(this).children('p').slideToggle()
+			divs.not($(this).children('div')).slideUp()
+			$(this).children('div').slideToggle()
 			return false; //Prevent the browser jump to the link anchor
 
 		});
