@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+   
 
   </head>
 
@@ -30,18 +31,17 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#cv">C.V.</a>
+              <a class="nav-link js-scroll-trigger" href="#wip">Work in progress </a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#published">Published papers</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#wip">Work in progress </a>
-            </li>
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#other">Other stuff</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#cv">C.V.</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -49,6 +49,7 @@
         </div>
       </div>
     </nav>
+
 
     <header class="bg-primary text-white">
       <div class="container text-center">
@@ -87,12 +88,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Published research</h2>
+            <h2 class=accordion>Published research</h2>
               <ul>
-				<li> <a href="http://andreamoro.net/perm/papers/endogenous_comparative_advantage.pdf"> 
-        Endogenous Comparative Advantage            (12/05/17)
-				 </a>
-		            <a href="http://andreamoro.net/index.php/articles/321">more info</a>
+				<li class=acc_trigger> <a href="http://andreamoro.net/perm/papers/endogenous_comparative_advantage.pdf"> 
+     			 	   Endogenous Comparative Advantage
+					 </a>
+		             <div >
+		               <p >(more info)</p>
+		               <div class="block"> Yay content!</div>
+		             </div>
 				</li>     
 	      <li> <a href="http://www.andreamoro.net/perm/papers/the_effect_of_job_flexibility.pdf">
         The Effect of Job Flexibility on Women Labor Market Outcomes: Estimates from a Search and Bargaining Model            (06/23/12)
@@ -127,7 +131,7 @@
       </div>
     </section>
     
-   <section id="cv" class="bg-light">
+   <section id="cv" class="bg-light" style="padding: 50px 0">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -138,21 +142,20 @@
     </section>
 
 
-    <section id="contact" class="bg-light">
+    <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Contact me</h2>
             <p class="lead">Andrea Moro 
+              <br /> Office phone : +1 615 343 1516
+              <br /> Econ dept fax : +1 615 343 8495
+              <br />            
               <br /> Department of Economics, Vanderbilt university 
               <br /> VU Station B #351819
               <br /> Nashville, TN 37212
               <br />
-              <br /> Email: andrea at andreamoro dot net
-              <br /> 
-              <br /> Office phone : +1 615 343 1516
-              <br /> Econ dept fax : +1 615 343 8495
-              
+              <br /> Email: andrea at andreamoro dot net 
             </p>
           </div>
         </div>
@@ -162,20 +165,37 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Andrea Moro 2018</p>
       </div>
       <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
+    
+
+	<script>
+		jQuery(document).ready(function ($) {
+		//Set default open/close settings
+		var divs=$('.accordion>div').hide(); //Hide/close all containers
+
+		var h2s=$('.accordion>li').click(function () {
+			h2s.not(this).removeClass('active')
+			$(this).toggleClass('active')
+			divs.not($(this).next()).slideUp()
+			$(this).next().slideToggle()
+			return false; //Prevent the browser jump to the link anchor
+
+		});
+		});
+	</script> 
 
   </body>
 

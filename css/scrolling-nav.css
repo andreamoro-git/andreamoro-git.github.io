@@ -15,9 +15,17 @@ header {
 }
 
 section {
-  padding: 50px 0;
+  padding: 80px 0;
 }
 
 a{color:#5a8241;}
-
+a:hover{color: #6314CC;}
 .bg-primary{background-color:#5a8241!important}
+
+.info {display: inline; color: #6314CC;}
+.info:hover {text-decoration: underline;}
+
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
