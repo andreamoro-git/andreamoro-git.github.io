@@ -34,8 +34,11 @@ a::after {
     content: url(files/pictures/pdf.png);
 }
 
+ul li {padding: 5px 0;}
+ul ul li {padding: 0}
 ul ul {list-style: none; font-size: 90%;
 			padding: 0 30px;}
-ul.acc_hide {padding: 10px 0}
+
+ul.acc_hide {padding: 10px 25px}
 a.paper, span.title {font-weight: bold}
 
