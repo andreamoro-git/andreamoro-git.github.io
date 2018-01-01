@@ -18,8 +18,8 @@ section {
   padding: 80px 0;
 }
 
-a{color:#5a8241;}
-a:hover{color: #6314CC;}
+a,.acc_trigger,.title{color:#5a8241;}
+a:hover,.acc_trigger:hover{color: #6314CC;}
 .bg-primary{background-color:#5a8241!important}
 
 .info {display: inline; color: #6314CC;}
@@ -29,3 +29,13 @@ a:hover{color: #6314CC;}
 .ui-draggable, .ui-droppable {
 	background-position: top;
 }
+
+a::after {
+    content: url(files/pictures/pdf.png);
+}
+
+ul ul {list-style: none; font-size: 90%;
+			padding: 0 30px;}
+ul.acc_hide {padding: 10px 0}
+a.paper, span.title {font-weight: bold}
+
