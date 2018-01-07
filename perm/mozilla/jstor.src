@@ -1,0 +1,32 @@
+# Status: seems to work
+# Created: April 7, 2005
+# Last Updated: April 7, 2005
+# Version: 1.0
+# By: Andrea Moro
+# Email: amoro@econ.umn.edu
+# License: GPL
+
+<search
+ version="7.1"
+ name="JSTOR"
+ description="Search JSTOR article repository" 
+ action="http://www.jstor.org/search/BasicSearch"
+ searchForm="http://www.jstor.org/search"
+ method="GET" >
+<input name="sourceid" value="Mozilla-search">	
+<input name="Query" user>
+<input name="si" value="1">
+<input name="Search" value="Search">
+<interpret 
+ resultListStart="<!-- RESULT LIST START -->"
+ resultListEnd="<!-- RESULT LIST END -->"
+ resultItemStart="<!-- RESULT ITEM START -->"
+ resultItemEnd="<!-- RESULT ITEM END -->"
+>
+</search>
+
+<browser
+ update="http://www.econ.umn.edu/~amoro/mozilla/jstor.src" 
+ updateIcon="http://www.econ.umn.edu/~amoro/mozilla/jstor.gif" 
+ updateCheckDays="3" 
+>

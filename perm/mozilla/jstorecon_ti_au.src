@@ -1,0 +1,37 @@
+# Status: seems to work
+# Created: April 7, 2005
+# Last Updated: Jan 7, 2006
+# Version: 1.2
+# By: Andrea Moro
+# Email: andrea@andreamoro.net 
+# License: GPL
+
+<search
+ version="7.1"
+ name="JSTOR Econ (Title/Author)"
+ description="Search JSTOR Economics articles repository - only titles
+ and authors" 
+ action="http://www.jstor.org/search/AdvancedSearch?Exact=&One=&None=&sd=&ed=&jt=&"
+ searchForm="http://www.jstor.org/search/AdvancedSearch"
+ method="GET" >
+<input name="sourceid" value="Mozilla-search">	
+<input name="All" user>
+<input name="si" value="1">
+<input name="hp" value="25">
+<input name="ti" value="on">
+<input name="au" value="on">
+<input name="Search" value="Search">
+<input name="dc" value="Economics">
+<interpret 
+ resultListStart="<!-- RESULT LIST START -->"
+ resultListEnd="<!-- RESULT LIST END -->"
+ resultItemStart="<!-- RESULT ITEM START -->"
+ resultItemEnd="<!-- RESULT ITEM END -->"
+>
+</search>
+
+<browser
+ update="http://www.andreamoro.net/perm/mozilla/jstorecon_ti_au.src" 
+ updateIcon="http://www.andreamoro.net/perm/mozilla/jstorecon_ti_au.gif" 
+ updateCheckDays="3" 
+>

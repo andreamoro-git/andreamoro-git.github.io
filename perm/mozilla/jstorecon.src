@@ -1,0 +1,34 @@
+# Status: seems to work
+# Created: April 7, 2005
+# Last Updated: April 7, 2005
+# Version: 1.1
+# By: Andrea Moro
+# Email: amoro@econ.umn.edu
+# License: GPL
+
+<search
+ version="7.1"
+ name="JSTOR Economics"
+ description="Search JSTOR Economics articles repository" 
+ action="http://www.jstor.org/search/AdvancedSearch?Exact=&One=&None=&sd=&ed=&jt=&"
+ searchForm="http://www.jstor.org/search/AdvancedSearch"
+ method="GET" >
+<input name="sourceid" value="Mozilla-search">	
+<input name="All" user>
+<input name="si" value="1">
+<input name="hp" value="25">
+<input name="Search" value="Search">
+<input name="dc" value="Economics">
+<interpret 
+ resultListStart="<!-- RESULT LIST START -->"
+ resultListEnd="<!-- RESULT LIST END -->"
+ resultItemStart="<!-- RESULT ITEM START -->"
+ resultItemEnd="<!-- RESULT ITEM END -->"
+>
+</search>
+
+<browser
+ update="http://www.econ.umn.edu/~amoro/mozilla/jstorecon.src" 
+ updateIcon="http://www.econ.umn.edu/~amoro/mozilla/jstorecon.gif" 
+ updateCheckDays="3" 
+>
