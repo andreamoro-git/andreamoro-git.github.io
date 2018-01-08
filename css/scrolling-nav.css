@@ -72,5 +72,6 @@ a.paper, .title {
 .cit-bibtex>pre {
   margin-bottom: 0;
   margin-top: 5px;
+  margin-left: -18em;
   overflow: initial;
 }
