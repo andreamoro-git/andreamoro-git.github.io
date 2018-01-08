@@ -27,3 +27,37 @@
   });
 
 })(jQuery); // End of use strict
+
+// more custom jscode for sliding hidden parts
+
+jQuery(document).ready(function($) {
+  //Set default open/close settings
+  var divs = $('.acc_hide').hide(); //Hide/close all containers
+  var bibtex = $('.cit-bibtex').hide(); //Hide/close all containers
+
+  var h2s = $('.info').click(function() {
+    //h2s.not(this).removeClass('active')
+    // $(this).toggleClass('active')
+    //				thisurl = $(this).next('div').find('a')[0].href
+    //divs.not($(this).parent().next('.acc_hide')).slideUp()
+    var text = $(this).text();
+    $(this).text(
+        text == "More info..." ? "Less info" : "More info..."
+    );
+
+    $(this).parent().next('.acc_hide').slideToggle()
+    //				$(this).next('div').load(thisurl)
+
+    return false; //Prevent the browser jump to the link anchor
+  });
+
+  var showcit = $('.title>.acc_trigger').click(function() {
+    var text2 = $(this).text();
+    $(this).text(
+        text2 == "(BibTeX)" ? "(Text)" : "(BibTeX)"
+    );
+    $(this).parent().siblings('.cit-text').slideToggle();
+    $(this).parent().siblings('.cit-bibtex').slideToggle();
+  });
+
+});
