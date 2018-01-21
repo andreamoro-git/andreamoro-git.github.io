@@ -60,7 +60,7 @@ a.paper, .title {
 }
 
 .info::before {
-  content: "\2192"
+  content: "\2192 "
 }
 
 .cit-bibtex>pre {
