@@ -70,3 +70,7 @@ a.paper, .title {
   margin-left: -9em;
   overflow: initial;
 }
+
+.bg-light {
+  background-color: #f4fbf5!important;
+}
