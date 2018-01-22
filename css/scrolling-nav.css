@@ -59,7 +59,7 @@ a.paper, .title {
   font-weight: bold
 }
 
-.info::before {
+.info::before, .acc_trigger {
   content: "\2192 "
 }
 
