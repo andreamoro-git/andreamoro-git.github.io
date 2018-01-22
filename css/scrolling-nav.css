@@ -14,6 +14,7 @@ section {
 
 a, .acc_trigger, .info {
   color: #5a8241;
+  font-weight: normal
 }
 
 a:hover, .acc_trigger:hover, .info:hover {
@@ -59,7 +60,7 @@ a.paper, .title {
   font-weight: bold
 }
 
-.info::before, .acc_trigger {
+.info::before, .acc_trigger::before {
   content: "\2192 "
 }
 
