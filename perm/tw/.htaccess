@@ -1,6 +1,0 @@
-AuthType Basic
-AuthName "For Uploading a TiddlyWiki"
-AuthUserFile /nfsn/content/andreamoro/private/.htpasswd
-<limit POST>
-require valid-user
-</Limit>
