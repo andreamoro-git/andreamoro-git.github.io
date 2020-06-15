@@ -34,13 +34,13 @@ jQuery(document).ready(function($) {
   //Set default open/close settings
   var divs = $('.acc_hide').hide(); //Hide/close all containers
   var bibtex = $('.cit-bibtex').hide(); //Hide/close all containers
-  var bibtexcopy = $('.cit-bibtex>pre').click(function() {
+  var bibtexcopy = $('.cit-bibtex>pre, .cit-text').click(function() {
     var $temp = $("<input>");
     $("body").append($temp);
     $temp.val($(this).text()).select();
     document.execCommand("copy");
     $temp.remove();
-    alert('BibTeX entry copied to clipboard');
+    alert('Citation entry copied to clipboard');
   });
   var h2s = $('.info').click(function() {
     //h2s.not(this).removeClass('active')
