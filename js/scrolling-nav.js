@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
   var bibtexcopy = $('.cit-bibtex>pre, .cit-text').click(function() {
     var $temp = $("<input>");
     $("body").append($temp);
-    $temp.val($(this).text()).select();
+    $temp.val($(element).html().replace(brRegex, "\r\n")).select();
     document.execCommand("copy");
     $temp.remove();
     alert('Citation entry copied to clipboard');
