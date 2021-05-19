@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>How to run intel fortran in a docker container on MacOS</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <style>
+    h1 {margin: 5px}
+    pre {background-color: #bbeca5;
+        margin: 10px 20px;
+        padding: 5px;}
+  </style>
+
+</head>
+
+<body id="page-top">
+
+<h1>How to run intel fortran on MacOS using docker containers</h1>
+  <h2>Set up the container</h2>
+  <ol>
+    <li>
+      Install Docker
+    </li>
+    <li>
+      Create a basic intel oneapi fortran image (will take a few minutes)
+      <pre> docker pull intel/oneapi-hpckit </pre>
+    </li>
+    <li> Run your first container
+      <pre> docker run -it intel/oneapi-hpckit -name firstcontainer </pre>
+    </li>
+    <li> Make changes you need to your container (e.g. customize .bash_profile, aliases, etc.. at your pleasure).
+      Since I make use of python I also need to
+      <pre>pip install tornado
+pip install --upgrade matplotlib  </pre>
+Then, exit the container
+    </li>
+  <li> Create a container with your changes
+    <pre> docker commit firstcontainer myimage</pre>
+  </li>
+</ol>
+  <h2> Run image mounting a directory to the system</h2>
+      <pre> docker run -it -v /path/to/directory/to/mount:/root/path/to/somewhere/inside/container myimage --name secondcontainer </pre>
+
+  <h2>"SSH" into an existing container</h2>
+  <pre>docker exec -it secondcon bash</pre>
+
+  <h2> Other useful commands</h2>
+  <pre>docker container prune</pre>
+</body>
+
+</html>
