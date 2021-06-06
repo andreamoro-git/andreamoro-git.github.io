@@ -38,7 +38,7 @@ a:hover, .acc_trigger:hover, .info:hover {
   background-position: top;
 }
 
-#wip a::after, #published a::after {
+a.paper::after, span.title a::after {
   content: url(../files/pictures/pdf.png);
 }
 
