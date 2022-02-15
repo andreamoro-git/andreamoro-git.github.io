@@ -38,7 +38,7 @@
       <pre> docker pull intel/oneapi-hpckit </pre>
     </li>
     <li> Run your first container
-      <pre> docker run -it intel/oneapi-hpckit --name firstcontainer </pre>
+      <pre> docker run --name firstcontainer -it intel/oneapi-hpckit  </pre>
     </li>
     <li> Make changes you need to your container (e.g. customize .bash_profile, aliases, etc.. at your pleasure), for example,
       <pre>apt-get update</pre>
@@ -55,7 +55,7 @@ Then, exit the container
   </li>
 </ol>
   <h2> Run image mounting a directory to the system</h2>
-      <pre> docker run -it -v /path/to/directory/to/mount:/root/path/to/somewhere/inside/container myimage --name secondcontainer </pre>
+      <pre> docker run -it --name secondcontainer -v /path/to/directory/to/mount:/root/path/to/somewhere/inside/container myimage  </pre>
 
   <h2>"SSH" into an existing container</h2>
   <pre>docker exec -it secondcon bash</pre>
