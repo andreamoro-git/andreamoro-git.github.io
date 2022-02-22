@@ -28,7 +28,10 @@
 <body id="page-top">
 
 <h1>How to run intel fortran on MacOS using docker containers</h1>
-  <h2>Set up the container</h2>
+  <p>by <a href="https://andreamoro.net">Andrea Moro</a>, Vanderbilt University @andreamoro
+  </p>
+  <p> As far as I know, this is the only way to get intel fortran running on macOS. Since it took me a while to get things right, you may find the following useful</p>
+  <h2>How to set up the container</h2>
   <ol>
     <li>
       Install Docker
@@ -50,18 +53,20 @@
 pip install --upgrade matplotlib  </pre>
 Then, exit the container
     </li>
-  <li> Create a container with your changes
+  <li> Create an image with your changes (named "myimage")
     <pre> docker commit firstcontainer myimage</pre>
   </li>
 </ol>
-  <h2> Run image mounting a directory to the system</h2>
+  <h2> How to run a container mounting a local directory to the system</h2>
       <pre> docker run -it --name secondcontainer -v /path/to/directory/to/mount:/root/path/to/somewhere/inside/container myimage  </pre>
 
-  <h2>"SSH" into an existing container</h2>
+  <h2>How to "SSH" (not really, but good enough) into an existing container</h2>
   <pre>docker exec -it secondcon bash</pre>
 
-  <h2> Other useful commands</h2>
+  <h2>Other useful commands i keep forgetting</h2>
   <pre>docker container prune</pre>
+
+  <p> Note: I recommend starting containers afresh and pruning them frequently. In my experience, things start to act funny after a while.
 </body>
 
 </html>
