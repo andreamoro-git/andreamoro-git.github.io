@@ -17,6 +17,7 @@
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
   <style>
+    body {margin: 20px}
     h1 {margin: 5px}
     pre {background-color: #bbeca5;
         margin: 10px 20px;
@@ -61,7 +62,7 @@ Then, exit the container
       <pre> docker run -it --name secondcontainer -v /path/to/directory/to/mount:/root/path/to/somewhere/inside/container myimage  </pre>
 
   <h2>How to "SSH" (not really, but good enough) into an existing container</h2>
-  <pre>docker exec -it secondcon bash</pre>
+  <pre>docker exec -it secondcontainer bash</pre>
 
   <h2>Other useful commands i keep forgetting</h2>
   <pre>docker container prune</pre>
