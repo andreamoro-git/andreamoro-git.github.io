@@ -46,6 +46,6 @@ defaults:
       tags: Other
       
 url: https://andreamoro.net
-baseurl: "/blog"
-production_url : https://andreamoro.net/blog
-BASE_PATH : http://andreamoro.neZ/blog
+baseurl: "/gitblog"
+production_url : https://andreamoro.net/gitblog
+BASE_PATH : http://andreamoro.net/gitblog
