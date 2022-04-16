@@ -38,7 +38,7 @@ a:hover, .acc_trigger:hover, .info:hover {
   background-position: top;
 }
 
-a.paper::before, span.title a::before {
+span.title a::before {
   content: "\00a0";
 }
 
