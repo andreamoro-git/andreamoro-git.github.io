@@ -38,10 +38,13 @@ a:hover, .acc_trigger:hover, .info:hover {
   background-position: top;
 }
 
-a.paper::after, span.title a::after, a.pdf::after {
-  content: url(../files/pictures/pdf.png);
+a.paper::before, span.title a::before {
+  content: "\00a0";
 }
 
+.pdfli::marker, a.pdf::before {
+  content: url(../files/pictures/pdf.png);
+}
 ul li {
   padding: 5px 0;
 }
