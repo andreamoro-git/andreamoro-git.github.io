@@ -25,7 +25,7 @@
 {% capture bibpostname %}{{ bibpostname }}{{ post.date | date: '-%Y ' }}{% endcapture %}
 
 {%- if post.pdfurl -%}
-<li class="pdfli post">&#8204;
+<li class="pdfli post">
   <a class="paper" href= {{ post.pdfurl }} target="_blank">
     {{ post.title }}
   </a>
