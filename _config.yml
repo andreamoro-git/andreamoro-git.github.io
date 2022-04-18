@@ -1,1 +1,54 @@
-theme: jekyll-theme-minimal
+title: "andrea moro's academic website"
+author: "andrea moro"
+description: "based on single-blog-bootstrap 
+  --- hope this helps" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+
+# Email / Social media user names used by the minima theme:
+# All of these are optional and can be removed or commented out
+email: "andrea at andreamoro dot net"
+twitter_username: "andreamoro"
+github_username: "andreamoro_git"
+website: "https://andreamoro.net"
+#linkedin_username: "linkedinuser"
+#facebook_username: username
+#flickr_username: username
+#instagram_username: username
+#pinterest_username: username
+#youtube_username: username
+#googleplus_username: +username
+
+## my mods
+
+#########################################################################################
+######### Nothing below needs to be changed (unless you know what you're doing) #########
+#########################################################################################
+
+theme: "minima"
+
+google_analytics: UA-1953869-2
+
+rss: rss
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      tags: Other
+      
+url: https://andreamoro.net
+baseurl: "/betasite"
+production_url : https://andreamoro.net/betasite
+BASE_PATH : https://andreamoro.net/betasite

@@ -1,0 +1,123 @@
+---
+layout: default
+---
+
+{% if site.paginate %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+<main class="page-content" aria-label="Content" id = "page-top">
+  <div class="wrapper">
+  {% include header.html %}
+
+    <section id="cv" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="sectitle pdf"><a href="perm/otherdocs/MoroCV.pdf" target="_blank"> Curriculum Vitae </a></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work in progress -->
+    {%- if posts.size > 0 -%}
+    <section id="wip">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+              <h2 class="sectitle">Work in progress</h2>
+              <ul> <!-- posts -->
+                {%- for post in posts -%}
+                  {% if post.posttype == 'work_in_progress' %}
+                    {% include article.html %}
+                  {% endif %}
+                {% endfor %}
+              </ul> <!-- end wip -->
+          </div>
+        </div>
+      </div>
+    </section> <!-- end wip -->
+
+    <!-- published -->
+    <section id="published" class='bg-light'>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="sectitle">Published papers</h2>
+              <ul> <!-- posts -->
+                {%- for post in posts -%}
+                  {% if post.posttype == 'published' %}
+                    {% include article.html %}
+                  {% endif %}
+                {% endfor %}
+              </ul> <!-- end wip -->
+          </div>
+        </div>
+      </div>
+    </section> <!-- end published -->
+    {%- endif -%}
+
+
+    <section id="other">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="sectitle">Other links</h2>
+            <ul class="accordion">
+              <li>
+                <p class="lead"><a href="http://litconcordance.andreamoro.net">Literary concordances</a></p>
+              </li>
+              <li>
+                <p class="lead"><a href="http://presidentforecast.andreamoro.net">My presidential election forecasts (2004/2008)</a></p>
+              </li>
+              <li>
+                <p class="lead"><a href="http://noisefromamerika.org">noisefromamerika.org (in Italian)</a></p>
+              </li>
+              <li>
+                <p class="lead"><a href="https://github.com/andreamoro-git/Vandyletter/releases">Vandyletter</a> (a Vanderbilt Economics letterhead style for LaTeX users)</p>
+              </li>
+              <li>
+                <p class="lead"><a href="blog/">Tips and tricks, including:</a><p>
+                  <ul>
+                    <li>
+                      <p class="lead"><a href="latex.html">LaTeX commands I keep forgetting</a></p>
+                    </li>
+                    <li>
+                      <p class="lead"><a href="docker-fortran.html">How to run intel fortran on MacOS using docker containers</a></p>
+                    </li>
+                  </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="sectitle">Contact me</h2>
+            <p class="lead">Andrea Moro
+              <br /> Department of Economics, Vanderbilt university
+              <br /> VU Station B #351819
+              <br /> Nashville, TN 37212
+              <br />
+              <br /> Office phone : (please email first if you must call) +1 615 343 1516
+              <br /> Econ dept fax : +1 615 343 8495
+              <br />
+              <br /> Email: andrea at andreamoro dot net
+              <br />
+              <br /> Follow <a href="http://www.iusspavia.it/-/faculty-andrea-moro">
+                this link if you are looking for Andrea Moro, the italian linguist</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>

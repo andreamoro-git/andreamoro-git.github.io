@@ -1,15 +1,31 @@
+* {
+  line-height: 20px;
+}
+
 header {
-  padding: 154px 0 100px;
+  padding: 8rem 0 4rem;
 }
 
 @media (min-width: 992px) {
   header {
-    padding: 156px 0 100px;
+    padding: 8rem 0 4rem;
   }
 }
 
 section {
-  padding: 80px 0;
+  padding: 2rem 0 1rem 0;
+}
+
+h2.sectitle {
+  margin-bottom: 2rem;
+}
+
+.sectitle.pdf {
+	margin-left: -1.3rem;
+}
+
+#cv {
+	padding: 2rem 0 0 0;
 }
 
 a, .acc_trigger, .info {
@@ -42,23 +58,27 @@ span.title a::before {
   content: "\00a0";
 }
 
-.pdfli::marker, a.pdf::before {
+.pdfli::marker, .pdf::before {
   content: url(../files/pictures/pdf.png);
 }
-ul li {
-  padding: 5px 0;
+
+.spacepdf {
+  margin-left: 1rem
 }
 
-ul ul li {
-  padding: 2px 0;
+li.post ul li {
+  padding: 0.125rem 0;
 }
 
-ul ul {
+li.post ul {
   list-style: none;
   font-size: 90%;
-  padding: 5px 30px 0px 30px;
+  padding: .5rem 1.5rem;
 }
 
+li.post {
+  margin-bottom: .5rem;
+}
 a.paper, .title {
   font-weight: bold
 }
@@ -67,13 +87,28 @@ a.paper, .title {
   content: "\2192 "
 }
 
-.cit-bibtex>pre {
-  margin-bottom: 0;
-  margin-top: 5px;
-  margin-left: -9em;
-  overflow: initial;
+.cit-bibtex code, .cit-text code {
+  color: inherit;
+  background-color: #f4fbf5;
+  border: 1px solid #999;
+  display: block;
+  padding: .5rem;
+  margin: .25rem 0;
+  overflow: scroll;
+}
+
+.cit-bibtex pre {
+  margin: 0;
 }
 
 .bg-light {
   background-color: #f4fbf5!important;
+}
+
+.bg-light .cit-bibtex code, .bg-light .cit-text code {
+  background-color: #fcfffc !important;
+}
+
+#contact .lead {
+	line-height: 1.5rem;
 }

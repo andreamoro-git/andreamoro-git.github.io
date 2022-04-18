@@ -1,0 +1,115 @@
+{% assign trimauthor = post.author | replace: '{', '' | replace: '}', '' %}
+{% assign authorarray = trimauthor | split: ' and ' %}
+{%- if authorarray.size > 1 -%}
+  {%- capture trimauthor -%}
+   {{ authorarray[0] }}
+  {%- for author in authorarray offset:1 -%}
+    , {% if forloop.last == true %} and {% endif -%} {{ author }}
+  {%- endfor -%}
+  {%- endcapture -%}
+{% endif %}
+
+{% assign trimeditor = post.editor | replace: '{', '' | replace: '}', '' %}
+{% assign editorarray = trimeditor | split: ' and ' %}
+{%- if editorarray.size > 1 -%}
+  {%- capture trimeditor -%}
+   {{ editorarray[0] }}
+  {%- for author in editorarray offset:1 -%}
+    , {% if forloop.last == true %} and {% endif -%} {{ author }}
+  {%- endfor -%}
+  {%- endcapture -%}
+{% endif %}
+
+{% assign spliturl = post.url | split: '/' %}
+{% assign bibpostname = spliturl[4] | replace: '.html', '' %}
+{% capture bibpostname %}{{ bibpostname }}{{ post.date | date: '-%Y ' }}{% endcapture %}
+
+{%- if post.pdfurl -%}
+<li class="pdfli post">&#8204;
+  <a class="paper" href= {{ post.pdfurl }} target="_blank">
+    {{ post.title }}
+  </a>
+{%- else -%}
+<li class="post">
+  {{ post.title }}
+{%- endif -%}
+  <ul>
+    <li>
+      {%- if post.type == "incollection" -%}
+        <i>{{ post.booktitle }}</i>
+        {%- if post.volume %}
+          Vol. {{ post.volume}}
+        {%- endif -%},
+        {{ post.publisher }},
+      {%- else -%}
+        <i>{{ post.journal }}</i> {{ post.volume }} {%- if post.number -%}({{ post.number }}) {%- endif -%},
+      {% endif %}
+      {%- if post.nocite != true -%}
+        {{ post.date | date: ' %B ' }} {{ post.date | date: ' %Y ' }}
+      {%- endif -%}
+      {{ post.shortauthor }}
+    </li>
+
+    <li class="info">More info...</li>
+    <!-- hidden items -->
+    {{ post.content }}
+    {% if post.nocite != true %}
+      <li class="acc_hide"> <!-- citation -->
+        <div class="title">Citation<span class="acc_trigger">BibTeX</span>
+        </div>
+        <div class="cit-text">
+          <code>
+            {{ trimauthor }}. "{{ post.title }},"
+            {% if post.type == "incollection" -%}
+              in {{ trimeditor }}, editors: {{ post.booktitle }},
+              {%- if post.volume -%} Vol. {{ post.volume}}, {%- endif -%}
+              {% if post.chapter %} Ch. {{ post.chapter }}, {%- endif -%}
+              {{ post.publisher }}, {{ post.date | date: ' %Y ' }}
+            {% else -%}
+              {{ post.journal }} {{ post.volume }}
+              {%- if post.number -%}
+              ({{ post.number }})
+              {%- endif -%},
+              {% if post.pages -%}
+              pp. {{ post.pages }},
+              {%- endif -%}
+              {% if post.month != false -%} {{ post.date | date: ' %B ' }} {%- endif %}
+              {{ post.date | date: ' %Y' }}
+            {%- endif -%}
+          </code>
+        </div>
+        <div class="cit-bibtex">
+          <code>
+
+<pre>@{{ post.type }}{{ '{' }}{{ bibpostname }},
+    title = "{{ post.title }}",
+    author = "{{ post.author }}",
+    year = "{{ post.date | date: ' %Y' }}",
+    {%- if post.month != false %}
+    month = "{{ post.date | date: ' %B' }}",
+    {%- endif %}
+{%- if post.type == "incollection" %}
+    editor = " {{ post.editor }}",
+    booktitle = " {{ post.booktitle }}",
+    publisher = "{{ post.publisher }}",
+    chapter = "{{ post.chapter }}",
+{%- else %}
+    journal = "{{ post.journal | replace: '&', '\\&' }}",
+    {%- if post.number %}
+    number = "{{ post.number }}",
+    {%- endif -%}
+{%- endif %}
+    {%- if post.volume %}
+    volume = "{{ post.volume }}",
+    {%- endif %}
+    {%- if post.pages %}
+    pages = "{{ post.pages }}",
+    {%- endif %}
+    url = "{{ post.pdfurl }}"
+}</pre>
+          </code>
+        </div>
+      </li> <!-- end citation -->
+    {%- endif %}
+  </ul>
+</li>
