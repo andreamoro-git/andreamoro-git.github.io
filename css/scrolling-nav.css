@@ -20,6 +20,10 @@ h2.sectitle {
   margin-bottom: 2rem;
 }
 
+h2.sectitle a {
+	vertical-align: middle;
+}
+
 .sectitle.pdf {
 	margin-left: -1.7rem;
 }
