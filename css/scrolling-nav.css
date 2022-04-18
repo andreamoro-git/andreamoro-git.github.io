@@ -54,10 +54,6 @@ a:hover, .acc_trigger:hover, .info:hover {
   background-position: top;
 }
 
-span.title a::before {
-  content: "\00a0";
-}
-
 .pdfli::marker, .pdf::before {
   content: url(../files/pictures/pdf.png);
 }
