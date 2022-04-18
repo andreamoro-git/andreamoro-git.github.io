@@ -63,11 +63,12 @@ span.title a::before {
 }
 
 .spacepdf {
-  margin-left: 1rem
+  margin-left: 1.1rem;
 }
 
 li.post ul li {
   padding: 0.125rem 0;
+  margin-top: 0.25rem;
 }
 
 li.post ul {
