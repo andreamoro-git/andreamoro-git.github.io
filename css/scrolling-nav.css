@@ -83,6 +83,10 @@ li.post {
   font-weight: bold
 }
 
+span.paper {
+	color: #5a8241
+}
+
 .info::before, .acc_trigger::before {
   content: "\2192 "
 }
