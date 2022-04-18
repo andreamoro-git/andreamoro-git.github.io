@@ -22,7 +22,7 @@
 
 {% assign spliturl = post.url | split: '/' %}
 {% assign bibpostname = spliturl[4] | replace: '.html', '' %}
-{%- capture bibpostname -%}{{ bibpostname }}{{ post.date | date: '-%Y ' }}{%- endcapture -%}
+{% capture bibpostname %}{{ bibpostname }}{{ post.date | date: '-%Y' }}{% endcapture %}
 
 {%- if post.pdfurl -%}
 <li class="pdfli post">
