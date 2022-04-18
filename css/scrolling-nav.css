@@ -79,6 +79,7 @@ li.post ul {
 
 li.post {
   margin-bottom: .5rem;
+  padding: 0 0 0 0.125rem;
 }
 .paper, .title {
   font-weight: bold
