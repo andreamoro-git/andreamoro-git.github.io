@@ -100,6 +100,9 @@ span.paper {
 .info::before, .acc_trigger::before {
   content: "\2192 "
 }
+.info span:hover {
+  text-decoration: underline;
+}
 
 .cit-bibtex code, .cit-text code {
   color: inherit;
