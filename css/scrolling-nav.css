@@ -66,6 +66,10 @@ span.title a::before {
   margin-left: 1.1rem;
 }
 
+.spacepdf .title {
+	padding-left: .5ex;
+}
+
 li.post ul li {
   padding: 0.125rem 0;
   margin-top: 0.25rem;
@@ -79,7 +83,7 @@ li.post ul {
 
 li.post {
   margin-bottom: .5rem;
-  padding: 0 0 0 0.125rem;
+  padding-left: .5ex;
 }
 .paper, .title {
   font-weight: bold
