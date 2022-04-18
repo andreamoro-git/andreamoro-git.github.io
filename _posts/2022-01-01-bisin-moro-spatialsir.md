@@ -25,7 +25,7 @@ pdfurl: http://andreamoro.net/perm/papers/spatialSIR.pdf
                       </a>
   </span>
 </li>
-<li class='acc_hide pdfli spacepdf'>
+<li class='acc_hide codeli spacepdf'>
   <span class="title"><a href="https://github.com/andreamoro-git/BM-Spatial-SIR" target="_blank">
   Replication package
                       </a>
