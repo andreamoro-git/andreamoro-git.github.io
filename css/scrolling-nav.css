@@ -58,6 +58,10 @@ a:hover, .acc_trigger:hover, .info:hover {
   content: url(../files/pictures/pdf.png);
 }
 
+.codeli::marker {
+  content: url(../files/pictures/code.png);
+}
+
 .spacepdf {
   margin-left: 1.1rem;
 }
