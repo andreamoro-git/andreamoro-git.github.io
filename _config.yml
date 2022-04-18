@@ -49,6 +49,6 @@ defaults:
       tags: Other
       
 url: https://andreamoro.net
-baseurl: "/betasite"
-production_url : https://andreamoro.net/betasite
-BASE_PATH : https://andreamoro.net/betasite
+#baseurl: "/betasite"
+#production_url : https://andreamoro.net/betasite
+#BASE_PATH : https://andreamoro.net/betasite
