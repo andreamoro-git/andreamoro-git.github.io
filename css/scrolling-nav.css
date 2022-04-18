@@ -46,7 +46,7 @@ a:hover, .acc_trigger:hover, .info:hover {
   color: #6314CC;
 }
 
-.info:hover {
+.info span:hover {
   text-decoration: underline;
 }
 
