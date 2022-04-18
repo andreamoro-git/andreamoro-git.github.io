@@ -84,9 +84,9 @@
 <pre>@{{ post.type }}{{ '{' }}{{ bibpostname }},
     title = "{{ post.title }}",
     author = "{{ post.author }}",
-    year = "{{ post.date | date: ' %Y' }}",
+    year = "{{ post.date | date: '%Y' }}",
     {%- if post.month != false %}
-    month = "{{ post.date | date: ' %B' }}",
+    month = "{{ post.date | date: '%B' }}",
     {%- endif %}
 {%- if post.type == "incollection" %}
     editor = " {{ post.editor }}",
