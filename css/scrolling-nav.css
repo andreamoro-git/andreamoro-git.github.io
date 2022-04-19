@@ -130,6 +130,10 @@ span.paper {
   background-color: #fcfffc !important;
 }
 
+#contact {
+  padding-bottom: 6rem;
+}
+
 #contact .lead {
 	line-height: 1.5rem;
 }
