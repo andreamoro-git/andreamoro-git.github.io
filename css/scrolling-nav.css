@@ -93,6 +93,10 @@ li.post {
   font-weight: bold
 }
 
+.footwrap {
+  padding-left:2rem;
+  font-size: 115%;
+}
 span.paper {
 	color: #5a8241
 }
