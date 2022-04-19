@@ -48,7 +48,7 @@ jQuery(document).ready(function($) {
     //				thisurl = $(this).next('div').find('a')[0].href
     //divs.not($(this).parent().next('.acc_hide')).slideUp()
     $(this.firstChild).text(
-        text == "More info..." ? "Less info" : "More info..."
+        text == "More info..." ? text="Less info" : text="More info..."
     );
 
     $(this).parent().children('.acc_hide').slideToggle()
