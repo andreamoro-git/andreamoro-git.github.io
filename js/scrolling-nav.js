@@ -47,10 +47,10 @@ jQuery(document).ready(function($) {
     // $(this).toggleClass('active')
     //				thisurl = $(this).next('div').find('a')[0].href
     //divs.not($(this).parent().next('.acc_hide')).slideUp()
-    var text = $(this).text();
-    $(this.firstChild).text(
-    text == "More info..." ? "Less info" : "More info..."
 
+    $(this.firstChild).text(
+      text == "More info..." ? "Less info" : "More info..."
+    )
     $(this).parent().children('.acc_hide').slideToggle()
     //				$(this).next('div').load(thisurl)
 
