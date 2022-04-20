@@ -97,7 +97,7 @@ span.paper {
 	color: #5a8241
 }
 
-.info::before, .acc_trigger::before {
+li.info::before, .acc_trigger::before {
   content: "\2192 "
 }
 
