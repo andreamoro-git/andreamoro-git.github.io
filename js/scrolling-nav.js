@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
   //   $temp.remove();
   //   alert('Citation entry copied to clipboard');
   // });
-  var h2s = $('li.info').click(function() {
+  var h2s = $('.info').click(function() {
     //h2s.not(this).removeClass('active')
     // $(this).toggleClass('active')
     //				thisurl = $(this).next('div').find('a')[0].href
