@@ -50,10 +50,6 @@ a:hover, .acc_trigger:hover, .info:hover {
   color: #6314CC;
 }
 
-.info span:hover {
-  text-decoration: underline;
-}
-
 .ui-draggable, .ui-droppable {
   background-position: top;
 }
@@ -104,7 +100,8 @@ span.paper {
 .info::before, .acc_trigger::before {
   content: "\2192 "
 }
-.info span:hover {
+
+span.info:hover {
   text-decoration: underline;
 }
 
