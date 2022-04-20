@@ -23,3 +23,8 @@ of compensating losers may involve the use of seemingly inefficient (but informa
 efficient) distortionary policies. The risk of over-compensating losers may make distortions
 informationally efficient.
 </li>
+<li class='acc_hide'> 
+  <span class="title">
+    <a href="https://twitter.com/SNageebAli/status/1354518293516836868?s=20&t=mZs06ypPrMkOlfL9HyFtIw">Nice thread by Nageeb Ali</a>
+  </span>
+ </li>
