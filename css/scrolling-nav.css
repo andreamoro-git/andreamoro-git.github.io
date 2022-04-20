@@ -34,7 +34,7 @@ h2.sectitle a {
 
 a, .acc_trigger, .info {
   color: #5a8241;
-  font-weight: normal
+  font-weight: 600;
 }
 
 a:hover, .acc_trigger:hover, .info:hover {
