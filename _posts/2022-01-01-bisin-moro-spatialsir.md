@@ -31,3 +31,9 @@ pdfurl: http://andreamoro.net/perm/papers/spatialSIR.pdf
                       </a>
   </span>
 </li>
+<li class='acc_hide'>
+   <span class='title'>
+     <a href="https://twitter.com/andreamoro/status/1275914553138782214?s=20&t=mZs06ypPrMkOlfL9HyFtIw">Twitter thread</a>
+  </span>
+</li>
+ 
