@@ -58,8 +58,8 @@ jQuery(document).ready(function($) {
   });
 
   var showcit = $('.title>.acc_trigger').click(function() {
-    var text2 = $(this).text();
-    $(this).text(
+    var text2 = $(this.firstChild).text();
+    $(this.firstChild).text(
         text2 == "BibTeX" ? "Text" : "BibTeX"
     );
     $(this).parent().siblings('.cit-text').slideToggle();

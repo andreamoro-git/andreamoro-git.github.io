@@ -101,7 +101,7 @@ span.paper {
   content: "\2192 "
 }
 
-span.info:hover {
+span.info:hover, .acc_trigger span.info:hover {
   text-decoration: underline;
 }
 

@@ -50,12 +50,12 @@
       {{ post.shortauthor }}
     </li>
 
-    <li class="info"><span>More info...</span></li>
+    <li class="info"><span class="info">More info...</span></li>
     <!-- hidden items -->
     {{ post.content }}
     {% if post.nocite != true %}
       <li class="acc_hide"> <!-- citation -->
-        <div class="title">Citation<span class="acc_trigger">BibTeX</span>
+        <div class="title">Citation<span class="acc_trigger"><span class="info">BibTeX</span></span>
         </div>
         <div class="cit-text">
           <code>
