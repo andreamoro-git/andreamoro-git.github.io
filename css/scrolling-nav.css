@@ -32,7 +32,7 @@ h2.sectitle a {
 	padding: 2rem 0 0 0;
 }
 
-a, .acc_trigger, .info {
+.acc_trigger, .info {
   color: #5a8241;
   font-weight: 600;
 }
@@ -86,7 +86,7 @@ li.post {
   padding-left: .5ex;
 }
 .paper, .title {
-  font-weight: bold
+  font-weight: 600;
 }
 
 .footwrap {
