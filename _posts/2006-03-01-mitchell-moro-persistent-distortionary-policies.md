@@ -25,6 +25,6 @@ informationally efficient.
 </li>
 <li class='acc_hide'> 
   <span class="title">
-    <a href="https://twitter.com/SNageebAli/status/1354518293516836868?s=20&t=mZs06ypPrMkOlfL9HyFtIw">Nice thread by Nageeb Ali</a>
+    <a href="https://twitter.com/SNageebAli/status/1354518293516836868?s=20&t=mZs06ypPrMkOlfL9HyFtIw">Nice twitter thread by Nageeb Ali</a>
   </span>
  </li>
