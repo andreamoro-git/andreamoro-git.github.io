@@ -30,7 +30,8 @@ of women at the top of the corporate hierarchy.
 </li>
 <li class='acc_hide pdfli spacepdf'>
  <span class="title"><a href="perm/papers/femaleceo-webappendix.pdf" target="_blank">
-External appendix
+External appendix 
     </a>
   </span>
 </li>
+
