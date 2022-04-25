@@ -1,7 +1,7 @@
 ---
 posttype: published
 type: article
-title: "Do Female Executives Make a Difference? The Impact of Female eadership on Gender Gaps and Firm Performance"
+title: "Do Female Executives Make a Difference? The Impact of Female Leadership on Gender Gaps and Firm Performance"
 author: "Flabbi, Luca and Mario Macis and Andrea Moro and Fabiano Schivardi"
 shortauthor: "(with Luca Flabbi, Mario Macis and Fabiano Schivardi)"
 journal: "The Economic Journal"
