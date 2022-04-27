@@ -11,7 +11,7 @@ pages: "370-388"
 year: "2022"
 month: "June"
 doi: "10.1016/j.jebo.2022.04.009"
-permurl: "https://doi.org/10.1016/j.jebo.2022.04.009
+permurl: "https://doi.org/10.1016/j.jebo.2022.04.009"
 ---
 
 <li class='acc_hide'> <div class="title">Abstract</div>
