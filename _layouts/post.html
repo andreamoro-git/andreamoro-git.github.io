@@ -3,7 +3,7 @@ layout: default
 ---
 {% include navbar.html %}
 
-<article class="bg-light container" itemscope itemtype="http://schema.org/BlogPosting">
+<article itemscope itemtype="http://schema.org/BlogPosting">
  
   
 {% assign trimauthor = page.author | replace: '{', '' | replace: '}', '' %}
@@ -38,6 +38,10 @@ layout: default
   {% assign month = page.date | date: ' %B ' %}
 {%- endif -%}
 
+ 
+
+    <div class="container text-center">
+      <h1>
 {%- if page.pdfurl -%}
 <li class="pdfli post">
   <a class="paper" href= {{ page.pdfurl }} target="_blank">
@@ -47,6 +51,9 @@ layout: default
 <li class="post">
   <span class="paper">{{ page.title }}</span>
 {%- endif -%}
+      </h1>
+    </div>
+<div>
   <ul>
     <li>
       {%- if page.type == "incollection" -%}
@@ -130,7 +137,7 @@ layout: default
 </li>
   
   
-  
+ </div> 
   
   
   
