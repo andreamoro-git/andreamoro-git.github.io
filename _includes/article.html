@@ -51,7 +51,8 @@
         <i>{{ post.journal }}</i> {{ post.volume }} {%- if post.number -%}({{ post.number }}) {%- endif -%},
       {% endif %}
       {%- if post.nocite != true -%}
-        {{ month }} {{ post.date | date: ' %Y ' }}
+        {% if post.month != false -%} {{ month }} {%- endif %}
+        {{ post.date | date: ' %Y ' }}
       {%- endif -%}
       {{ post.shortauthor }}
     </li>
