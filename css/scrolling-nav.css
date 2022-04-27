@@ -12,6 +12,12 @@ header {
   }
 }
 
+.col-lg-8 {
+	-ms-flex: 0 0 75%;
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+
 section {
   padding: 2rem 0 1rem 0;
 }
