@@ -32,7 +32,7 @@
 
 jQuery(document).ready(function($) {
   //Set default open/close settings
-  var divs = $('.acc_hide').hide(); //Hide/close all containers
+  var divs = $('.page-content .acc_hide').hide(); //Hide/close all containers
   var bibtex = $('.cit-bibtex').hide(); //Hide/close all containers
   // var bibtexcopy = $('.cit-bibtex>pre, .cit-text').click(function() {
   //   var $temp = $("<input>");
