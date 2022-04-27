@@ -44,7 +44,7 @@ layout: default
     <h2>
 {%- if page.pdfurl -%}
 <li class="pdfli post">
-  <a class="paper" href= {{ page.pdfurl }} target="_blank">
+  <a class="paper text-white" href= {{ page.pdfurl }} target="_blank">
     {{ page.title }}
   </a>
 {%- else -%}
@@ -57,8 +57,7 @@ layout: default
  
 <section>
  <div class="container">
-  <ul>
-    <li>
+
       {%- if page.type == "incollection" -%}
         <i>{{ page.booktitle }}</i>
         {%- if page.volume %}
@@ -75,9 +74,10 @@ layout: default
         {{ page.date | date: ' %Y ' }}
       {%- endif -%}
       {{ page.shortauthor }}
-    </li>
-
-    {{ page.content }}
+    
+   <ul class="postpage"> 
+      {{ page.content }}
+   
     {% if page.nocite != true %}
       <li class="acc_hide"> <!-- citation -->
         <div class="title">Citation<span class="acc_trigger"><span class="info">BibTeX</span></span>
