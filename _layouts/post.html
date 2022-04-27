@@ -50,17 +50,29 @@ layout: default
 {%- else -%}
 <li class="post">
   <span class="paper">{{ page.title }}</span>
-{%- endif -%}
+{%- endif -%
     </h2>
     
     {%- if page.type == "incollection" -%}
-      <i>{{ page.booktitle }}</i>
+      {%- if page.pdfurl -%}
+        <a class="pdf text-white" href= {{ page.pdfurl }} target="_blank">
+          <i>{{ page.booktitle }}</i>
+        </a>
+      {%- else -%}
+        <i>{{ page.booktitle }}</i>
+      {%- endif -%}
       {%- if page.volume %}
         Vol. {{ page.volume}}
       {%- endif -%},
       {{ page.publisher }},
     {%- else -%}
+      {%- if page.pdfurl -%}
+        <a class="pdf text-white" href= {{ page.pdfurl }} target="_blank">
+          <i>{{ page.journal }}</i>
+        </a>
+     {%- else -%}
       <i>{{ page.journal }}</i>
+    {%- endif -%}     
       {%- if page.volume %} {{ page.volume }}{%- endif -%}
       {%- if page.number -%} ({{ page.number }}){%- endif -%},
     {% endif %}
