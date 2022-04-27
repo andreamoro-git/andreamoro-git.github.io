@@ -15,7 +15,7 @@ layout: default
         ~ 
         {%- assign mdate = page.modified_date | date_to_xmlschema -%}
         <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
-          {{ mdate | .date: date_format }}
+          {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
       {%- if page.author -%}
@@ -32,7 +32,7 @@ layout: default
   </div>
 -->
   
-{% assign trimauthor = author | replace: '{', '' | replace: '}', '' %}
+{% assign trimauthor = page.author | replace: '{', '' | replace: '}', '' %}
 {% assign authorarray = trimauthor | split: ' and ' %}
 {%- if authorarray.size > 1 -%}
   {%- capture trimauthor -%}
@@ -43,7 +43,7 @@ layout: default
   {%- endcapture -%}
 {% endif %}
 
-{% assign trimeditor = editor | replace: '{', '' | replace: '}', '' %}
+{% assign trimeditor = page.editor | replace: '{', '' | replace: '}', '' %}
 {% assign editorarray = trimeditor | split: ' and ' %}
 {%- if editorarray.size > 1 -%}
   {%- capture trimeditor -%}
@@ -54,101 +54,101 @@ layout: default
   {%- endcapture -%}
 {% endif %}
 
-{% assign spliturl = url | split: '/' %}
+{% assign spliturl = page.url | split: '/' %}
 {% assign bibpostname = spliturl[4] | replace: '.html', '' %}
-{% capture bibpostname %}{{ bibpostname }}{{ date | date: '-%Y' }}{% endcapture %}
+{% capture bibpostname %}{{ bibpostname }}{{ page.date | date: '-%Y' }}{% endcapture %}
 
-{%- if month -%}
-  {% assign month = ' ' | append: month %}
-{%- elsif month != false -%} {% assign comment = 'needed to make sure month isn't missing and set to false' %}
-  {% assign month = date | date: ' %B ' %}
+{%- if page.month -%}
+  {% assign month = ' ' | append: page.month %}
+{%- elsif page.month != false -%} {% assign comment = 'needed to make sure month isn't missing and set to false' %}
+  {% assign month = page.date | date: ' %B ' %}
 {%- endif -%}
 
-{%- if pdfurl -%}
+{%- if page.pdfurl -%}
 <li class="pdfli post">
-  <a class="paper" href= {{ pdfurl }} target="_blank">
-    {{ title }}
+  <a class="paper" href= {{ page.pdfurl }} target="_blank">
+    {{ page.title }}
   </a>
 {%- else -%}
 <li class="post">
-  <span class="paper">{{ title }}</span>
+  <span class="paper">{{ page.title }}</span>
 {%- endif -%}
   <ul>
     <li>
-      {%- if type == "incollection" -%}
-        <i>{{ booktitle }}</i>
-        {%- if volume %}
-          Vol. {{ volume}}
+      {%- if page.type == "incollection" -%}
+        <i>{{ page.booktitle }}</i>
+        {%- if page.volume %}
+          Vol. {{ page.volume}}
         {%- endif -%},
-        {{ publisher }},
+        {{ page.publisher }},
       {%- else -%}
-        <i>{{ journal }}</i>
-        {%- if volume %} {{ volume }}{%- endif -%}
-        {%- if number -%} ({{ number }}){%- endif -%},
+        <i>{{ page.journal }}</i>
+        {%- if page.volume %} {{ page.volume }}{%- endif -%}
+        {%- if page.number -%} ({{ page.number }}){%- endif -%},
       {% endif %}
-      {%- if nocite != true -%}
-        {% if month != false -%} {{ month }} {%- endif %}
-        {{ date | date: ' %Y ' }}
+      {%- if page.nocite != true -%}
+        {% if page.month != false -%} {{ month }} {%- endif %}
+        {{ page.date | date: ' %Y ' }}
       {%- endif -%}
-      {{ shortauthor }}
+      {{ page.shortauthor }}
     </li>
 
     <li class="info"><span class="info">More info...</span></li>
     <!-- hidden items -->
-    {{ content }}
-    {% if nocite != true %}
+    {{ page.content }}
+    {% if page.nocite != true %}
       <li class="acc_hide"> <!-- citation -->
         <div class="title">Citation<span class="acc_trigger"><span class="info">BibTeX</span></span>
         </div>
         <div class="cit-text">
           <code>
-            {{ trimauthor }}. "{{ title }},"
-            {% if type == "incollection" -%}
-              in {{ trimeditor }}, editors: {{ booktitle }},
-              {%- if volume %} Vol. {{ volume}}, {%- endif -%}
-              {% if chapter %} Ch. {{ chapter }}, {% endif -%}
-              {{ publisher }}, {{ date | date: ' %Y ' }}
+            {{ trimauthor }}. "{{ page.title }},"
+            {% if page.type == "incollection" -%}
+              in {{ trimeditor }}, editors: {{ page.booktitle }},
+              {%- if page.volume %} Vol. {{ page.volume}}, {%- endif -%}
+              {% if page.chapter %} Ch. {{ page.chapter }}, {% endif -%}
+              {{ page.publisher }}, {{ page.date | date: ' %Y ' }}
             {% else -%}
-              {{ journal }} {{ volume }}
-              {%- if number -%}
-              ({{ number }})
+              {{ page.journal }} {{ page.volume }}
+              {%- if page.number -%}
+              ({{ page.number }})
               {%- endif -%},
-              {% if pages -%}
-              pp. {{ pages }},
+              {% if page.pages -%}
+              pp. {{ page.pages }},
               {%- endif -%}
-              {% if month != false -%} {{ month }} {%- endif %}
-              {{ date | date: ' %Y' }}
+              {% if page.month != false -%} {{ month }} {%- endif %}
+              {{ page.date | date: ' %Y' }}
             {%- endif -%}
           </code>
         </div>
         <div class="cit-bibtex">
           <code>
 
-<pre>@{{ type }}{{ '{' }}{{ bibpostname }},
-    title = "{{ title }}",
-    author = "{{ author }}",
-    year = "{{ date | date: '%Y' }}",
-    {%- if month != false %}
+<pre>@{{ page.type }}{{ '{' }}{{ bibpostname }},
+    title = "{{ page.title }}",
+    author = "{{ page.author }}",
+    year = "{{ page.date | date: '%Y' }}",
+    {%- if page.month != false %}
     month = "{{ month }}",
     {%- endif %}
-{%- if type == "incollection" %}
-    editor = " {{ editor }}",
-    booktitle = " {{ booktitle }}",
-    publisher = "{{ publisher }}",
-    chapter = "{{ chapter }}",
+{%- if page.type == "incollection" %}
+    editor = " {{ page.editor }}",
+    booktitle = " {{ page.booktitle }}",
+    publisher = "{{ page.publisher }}",
+    chapter = "{{ page.chapter }}",
 {%- else %}
-    journal = "{{ journal | replace: '&', '\\&' }}",
-    {%- if number %}
-    number = "{{ number }}",
+    journal = "{{ page.journal | replace: '&', '\\&' }}",
+    {%- if page.number %}
+    number = "{{ page.number }}",
     {%- endif -%}
 {%- endif %}
-    {%- if volume %}
-    volume = "{{ volume }}",
+    {%- if page.volume %}
+    volume = "{{ page.volume }}",
     {%- endif %}
-    {%- if pages %}
-    pages = "{{ pages }}",
+    {%- if page.pages %}
+    pages = "{{ page.pages }}",
     {%- endif %}
-    url = "{{ pdfurl }}"
+    url = "{{ page.pdfurl }}"
 }</pre>
           </code>
         </div>
