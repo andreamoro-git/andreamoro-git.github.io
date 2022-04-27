@@ -1,11 +1,7 @@
 ---
 layout: default
 ---
-{% include navbar.html %}
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
- 
-  
 {% assign trimauthor = page.author | replace: '{', '' | replace: '}', '' %}
 {% assign authorarray = trimauthor | split: ' and ' %}
 {%- if authorarray.size > 1 -%}
@@ -38,10 +34,14 @@ layout: default
   {% assign month = page.date | date: ' %B ' %}
 {%- endif -%}
 
- 
+<div class="wrapper">
+  {% include navbar.html %}
 
-    <div class="container text-center">
-      <h1>
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+
+<header class="bg-primary text-white">
+  <div class="container">
+    <h2>
 {%- if page.pdfurl -%}
 <li class="pdfli post">
   <a class="paper" href= {{ page.pdfurl }} target="_blank">
@@ -51,9 +51,12 @@ layout: default
 <li class="post">
   <span class="paper">{{ page.title }}</span>
 {%- endif -%}
-      </h1>
-    </div>
-<div>
+    </h2>
+  </div> 
+</header>
+ 
+<section>
+ <div class="container">
   <ul>
     <li>
       {%- if page.type == "incollection" -%}
@@ -137,14 +140,15 @@ layout: default
 </li>
   
   
- </div> 
-  
-  
-  
+  </div> 
+<section>  
+</article>  
+ 
   
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+
+</div>
