@@ -148,3 +148,7 @@ ul.postpage {
 	list-style-type: none;
 	padding: 0;
 }
+
+ul.postpage li {
+	margin-top: 1rem
+}
