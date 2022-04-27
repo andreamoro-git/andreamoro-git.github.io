@@ -48,7 +48,7 @@
         {%- endif -%},
         {{ post.publisher }},
       {%- else -%}
-        <i>{{ post.journal }}</i> {{ post.volume }} {%- if post.number -%}({{ post.number }}) {%- endif -%},
+        <i>{{ post.journal }}</i>{{ post.volume }}{%- if post.number -%} ({{ post.number }}){%- endif -%},
       {% endif %}
       {%- if post.nocite != true -%}
         {% if post.month != false -%} {{ month }} {%- endif %}
