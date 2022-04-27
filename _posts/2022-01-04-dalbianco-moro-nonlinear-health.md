@@ -4,7 +4,7 @@ type: article
 nocite: true
 title: 'The Welfare Effects of Non-Linear Health Dynamics'
 author: '{Dal Bianco, Chiara} and Andrea Moro'
-shortauthor: '(with Chiara dal Bianco)'
+shortauthor: ' with Chiara dal Bianco'
 journal: 'coming soon'
 month: false
 ---
