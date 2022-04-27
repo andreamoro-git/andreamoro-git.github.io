@@ -130,6 +130,12 @@ span.info:hover, .acc_trigger span.info:hover {
   background-color: #fcfffc !important;
 }
 
+.bg-dark a {
+	color: #cad2b1;
+}
+.bg-dark a:hover {
+	color: #f4fbf5;
+}
 #contact {
   padding-bottom: 6rem;
 }
