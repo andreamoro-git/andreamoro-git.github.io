@@ -26,7 +26,7 @@
 
 {%- if post.month -%}
   {% assign month = ' ' | append: post.month %}
-{%- elsif post.month != false -%} {% assign comment = 'needed to make sure month isn't missing and set to false' %}
+{%- elsif post.month != false -%} 
   {% assign month = post.date | date: ' %B ' %}
 {%- endif -%}
 
