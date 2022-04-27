@@ -70,7 +70,7 @@
             {% if post.type == "incollection" -%}
               in {{ trimeditor }}, editors: {{ post.booktitle }},
               {%- if post.volume %} Vol. {{ post.volume}}, {%- endif -%}
-              {% if post.chapter %} Ch. {{ post.chapter }}, {%- endif %}
+              {% if post.chapter %} Ch. {{ post.chapter }}, {% endif -%}
               {{ post.publisher }}, {{ post.date | date: ' %Y ' }}
             {% else -%}
               {{ post.journal }} {{ post.volume }}
