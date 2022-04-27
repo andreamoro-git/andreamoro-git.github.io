@@ -52,29 +52,30 @@ layout: default
   <span class="paper">{{ page.title }}</span>
 {%- endif -%}
     </h2>
+    
+    {%- if page.type == "incollection" -%}
+      <i>{{ page.booktitle }}</i>
+      {%- if page.volume %}
+        Vol. {{ page.volume}}
+      {%- endif -%},
+      {{ page.publisher }},
+    {%- else -%}
+      <i>{{ page.journal }}</i>
+      {%- if page.volume %} {{ page.volume }}{%- endif -%}
+      {%- if page.number -%} ({{ page.number }}){%- endif -%},
+    {% endif %}
+    {%- if page.nocite != true -%}
+      {% if page.month != false -%} {{ month }} {%- endif %}
+      {{ page.date | date: ' %Y ' }}
+    {%- endif -%}
+    {{ page.shortauthor }}
+    
   </div> 
 </header>
  
 <section>
  <div class="container">
 
-      {%- if page.type == "incollection" -%}
-        <i>{{ page.booktitle }}</i>
-        {%- if page.volume %}
-          Vol. {{ page.volume}}
-        {%- endif -%},
-        {{ page.publisher }},
-      {%- else -%}
-        <i>{{ page.journal }}</i>
-        {%- if page.volume %} {{ page.volume }}{%- endif -%}
-        {%- if page.number -%} ({{ page.number }}){%- endif -%},
-      {% endif %}
-      {%- if page.nocite != true -%}
-        {% if page.month != false -%} {{ month }} {%- endif %}
-        {{ page.date | date: ' %Y ' }}
-      {%- endif -%}
-      {{ page.shortauthor }}
-    
    <ul class="postpage"> 
       {{ page.content }}
    
