@@ -30,7 +30,7 @@ layout: default
 
 {%- if page.month -%}
   {% assign month = ' ' | append: page.month %}
-{%- elsif page.month != false -%} {% assign comment = 'needed to make sure month isn't missing and set to false' %}
+{%- elsif page.month != false -%} 
   {% assign month = page.date | date: ' %B ' %}
 {%- endif -%}
 
