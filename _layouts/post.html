@@ -42,15 +42,7 @@ layout: default
 <header class="bg-primary text-white">
   <div class="container">
     <h2>
-{%- if page.pdfurl -%}
-<li class="pdfli post">
-  <a class="paper text-white" href= {{ page.pdfurl }} target="_blank">
     {{ page.title }}
-  </a>
-{%- else -%}
-<li class="post">
-  <span class="paper">{{ page.title }}</span>
-{%- endif -%
     </h2>
     
     {%- if page.type == "incollection" -%}
