@@ -1,9 +1,8 @@
 # Andrea Moro Webpage
 
 [Andrea Moro Webpage]
-Made with some modifications from Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav/) template
-
-Scrolling Nav is an unstyled one page starter template with a collapsing, smooth scrolling navigation bar for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Engine: Jekyll. Extension of a minimal blog site from Chad Baldwin's [simple-blog-bootstrap](https://github.com/chadbaldwin/simple-blog-bootstrap)
+Theme: modified from [Scrolling Nav](https://startbootstrap.com/template-overviews/scrolling-nav/) from [Start Bootstrap](http://startbootstrap.com/)
 
 ## Copyright and License
 
