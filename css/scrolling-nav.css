@@ -143,3 +143,8 @@ span.info:hover, .acc_trigger span.info:hover {
 #contact .lead {
 	line-height: 1.5rem;
 }
+
+ul.postpage {
+	list-style-type: none;
+	padding: 0;
+}
