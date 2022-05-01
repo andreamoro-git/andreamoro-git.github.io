@@ -1,9 +1,10 @@
 ---
 posttype: published
 type: article
+keywords: "empirical, theory, discrimination, labor"
+title: "Empirical Implications of Statistical Discrimination on the Returns to Measures of Skill"
 author: "Moro, Andrea and Peter Norman"
 shortauthor: "(with Peter Norman)"
-title: "Empirical Implications of Statistical Discrimination on the Returns to Measures of Skill"
 journal: "Annals of Economics and Statistics"
 year: 2003
 month: false

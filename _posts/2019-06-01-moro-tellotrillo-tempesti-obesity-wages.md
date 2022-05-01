@@ -1,6 +1,7 @@
 ---
 posttype: published
 type: article
+keywords: "empirical, health, reduced form, labor"
 title: "The Impact of Obesity on Wages: the Role of Personal Interactions and Job Selection"
 author: "Moro, Andrea and {D. Sebastian} Tello-Trillo and Tommaso Tempesti"
 shortauthor: "(with Daniel Sebastian Tello-Trillo and Tommaso Tempesti)"

@@ -2,6 +2,7 @@
 posttype: published
 type: incollection
 title: "What Do We Know about Discrimination in Latin America? Very Little!"
+keywords: "empirical, labor, discrimination"
 editor: "Hugo Nopo and Alberto Chong and Andrea Moro"
 booktitle: "Discrimination in Latin America.
   An Economic Perspective"

@@ -2,6 +2,7 @@
 posttype: published
 type: article
 title: "Persistent Distortionary Policies with Asymmetric Information"
+keywords: "theory"
 author: "Mitchell, Matthew and Andrea Moro"
 shortauthor: "(with Matthew Mitchell)"
 year: "2006"
@@ -23,7 +24,7 @@ of compensating losers may involve the use of seemingly inefficient (but informa
 efficient) distortionary policies. The risk of over-compensating losers may make distortions
 informationally efficient.
 </li>
-<li class='acc_hide'> 
+<li class='acc_hide'>
   <span class="title">
     <a href="https://twitter.com/SNageebAli/status/1354518293516836868?s=20&t=mZs06ypPrMkOlfL9HyFtIw">Nice twitter thread by Nageeb Ali</a>
   </span>

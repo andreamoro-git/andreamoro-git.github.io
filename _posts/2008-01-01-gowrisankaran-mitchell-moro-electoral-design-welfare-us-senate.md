@@ -2,6 +2,7 @@
 posttype: published
 type: article
 title: "Electoral Design and Voter Welfare from the U.S. Senate: Evidence from a Dynamic Selection Model"
+keywords: "empirical, political economy, structural"
 author: "Gowrisankaran, Gautam and Matthew Mitchell and Andrea Moro"
 shortauthor: "(with Gautam Gowrisankaran and Matthew Mitchell)"
 year: "2008"

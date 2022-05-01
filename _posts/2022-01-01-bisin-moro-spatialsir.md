@@ -1,6 +1,7 @@
 ---
 posttype: published
 type: article
+keywords: "empirical, theory, covid-19"
 title: 'JUE Insight: Learning Epidemiology by Doing: The Empirical Implications of a Spatial SIR Model with Behavioral Responses'
 journal: Journal of Urban Economics
 volume: 127
@@ -36,4 +37,3 @@ pdfurl: http://andreamoro.net/assets/papers/spatialSIR.pdf
      <a href="https://twitter.com/andreamoro/status/1275914553138782214?s=20&t=mZs06ypPrMkOlfL9HyFtIw">Twitter thread</a>
   </span>
 </li>
- 

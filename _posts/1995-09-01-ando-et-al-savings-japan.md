@@ -1,6 +1,7 @@
 ---
 posttype: published
 type: article
+keywords: "empirical, structural, reduced form"
 title: "Dynamics of demographic development and its impact on personal saving: case of Japan"
 author: "Ando, Albert and Andrea Moro and Juan Pablo Cordoba and Gonzalo Garland"
 shortauthor: "(with Albert Ando, Juan Pablo Cordoba, and Gonzalo Garland)"

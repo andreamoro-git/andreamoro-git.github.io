@@ -1,6 +1,7 @@
 ---
 posttype: published
 type: incollection
+keywords: "theory, discrimination, labor"
 author: "Moro, Andrea"
 title: "Statistical Discrimination"
 booktitle: "The New Palgrave Dictionary of Economics"

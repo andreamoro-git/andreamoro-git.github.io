@@ -2,6 +2,7 @@
 posttype: published
 type: article
 author: "Suqin Ge and Andrea Moro and Beibei Zhu"
+keywords: "empirical, discrimination, reduced form, labor"
 shortauthor: "(with Suqin Ge and Beibei Zhu)"
 title: "Testing for asymmetric employer learning and statistical discrimination"
 journal: "Applied Economics"

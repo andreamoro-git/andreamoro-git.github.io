@@ -2,6 +2,7 @@
 posttype: published
 type: incollection
 title: "LATE for History"
+keywords: "theory, history"
 editor: "Bisin, Alberto and Giovanni Federico"
 author: "Bisin, Alberto and Andrea Moro"
 shortauthor: "(with Alberto Bisin)"

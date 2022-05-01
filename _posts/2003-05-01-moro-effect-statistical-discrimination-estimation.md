@@ -1,6 +1,7 @@
 ---
 posttype: published
 type: article
+keywords: "empirical, discrimination, labor, structural"
 title: "The effect of statistical discrimination on black-white wage inequality: estimating a model with multiple equilibria"
 author: "Moro, Andrea"
 journal: "International Economic Review"

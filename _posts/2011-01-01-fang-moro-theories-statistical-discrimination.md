@@ -2,6 +2,7 @@
 posttype: published
 type: incollection
 title: "Theories of Statistical Discrimination and Affirmative Action: A Survey"
+keywords: "theory, discrimination, labor"
 editor: "Jess Benhabib and Alberto Bisin and Matthew O. Jackson"
 booktitle: "Handbook of Social Economics"
 publisher: "North-Holland"
