@@ -6,7 +6,7 @@ author: 'Moro, Andrea and Martin {Van der Linden}'
 shortauthor: '(with Martin Van der Linden)'
 journal: 'arXiv/econ.GN working paper'
 volume: '2102.07222'
-pdfurl: 'http://andreamoro.net/_assets/papers/juryselection.pdf'
+pdfurl: 'http://andreamoro.net/assets/papers/juryselection.pdf'
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
   We compare two jury selection procedures meant to safeguard against the inclusion of biased jurors that are perceived as causing minorities to be under-represented.
@@ -16,7 +16,7 @@ pdfurl: 'http://andreamoro.net/_assets/papers/juryselection.pdf'
   In contrast, Strike and Replace better represents minorities only if the minority and majority are heavily polarized.
 </li>
 <li class='acc_hide pdfli spacepdf'>
-  <span class="title"><a href="http://andreamoro.net/_assets/papers/juryselection-external-appendix.pdf" target="_blank">
+  <span class="title"><a href="http://andreamoro.net/assets/papers/juryselection-external-appendix.pdf" target="_blank">
     External appendix
     </a>
   </span>

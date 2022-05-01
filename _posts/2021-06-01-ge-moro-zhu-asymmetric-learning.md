@@ -10,7 +10,7 @@ number: "12"
 pages: "1361-1377"
 year: "2021"
 publisher: "Routledge"
-pdfurl: "http://andreamoro.net/_assets/papers/asymmetric-learning.pdf"
+pdfurl: "http://andreamoro.net/assets/papers/asymmetric-learning.pdf"
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
 We test if firms statistically discriminate workers based on race when employer learning is asymmetric.

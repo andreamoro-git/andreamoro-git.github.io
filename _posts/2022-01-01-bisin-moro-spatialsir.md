@@ -6,7 +6,7 @@ journal: Journal of Urban Economics
 volume: 127
 shortauthor: with Alberto Bisin
 author: "Bisin, Alberto and Andrea Moro"
-pdfurl: http://andreamoro.net/_assets/papers/spatialSIR.pdf
+pdfurl: http://andreamoro.net/assets/papers/spatialSIR.pdf
 ---
 <li  class="acc_hide">
   <div class="title">Abstract</div>
@@ -20,7 +20,7 @@ pdfurl: http://andreamoro.net/_assets/papers/spatialSIR.pdf
                   behavioral responses affect the epidemics. We derive relevant implications for the estimation of  epidemiological models with panel data from several geographical units.
 </li>
 <li class='acc_hide pdfli spacepdf'>
-  <span class="title"><a href="http://andreamoro.net/_assets/papers/spSIR-appendix.pdf" target="_blank">
+  <span class="title"><a href="http://andreamoro.net/assets/papers/spSIR-appendix.pdf" target="_blank">
                   External appendix
                       </a>
   </span>

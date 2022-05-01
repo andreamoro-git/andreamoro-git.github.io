@@ -10,7 +10,7 @@ pages: "467-500"
 year: "2003"
 month: May
 publisher: "Wiley Online Library"
-pdfurl: "https://andreamoro.net/_assets/papers/the_effect_of_statistical_discrimination_on_black-white_wage_inequality.pdf"
+pdfurl: "https://andreamoro.net/assets/papers/the_effect_of_statistical_discrimination_on_black-white_wage_inequality.pdf"
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
 This paper presents the structural estimation of a statistical discrimination

@@ -13,7 +13,7 @@ year: "2004"
 issn: "0022-0531"
 doi: "https://doi.org/10.1016/S0022-0531(03)00165-0"
 url2: "http://www.sciencedirect.com/science/article/pii/S0022053103001650"
-pdfurl: "https://andreamoro.net/_assets/papers/a_general_equilibrium_model_of_statistical_discrimination.pdf"
+pdfurl: "https://andreamoro.net/assets/papers/a_general_equilibrium_model_of_statistical_discrimination.pdf"
 author: "Andrea Moro and Peter Norman"
 keywords: "Statistical discrimination, Inequality, Specialization, Human capital"
 ---

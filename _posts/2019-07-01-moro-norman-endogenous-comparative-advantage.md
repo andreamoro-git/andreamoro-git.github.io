@@ -26,7 +26,7 @@ trade. Welfare effects are ambiguous: trade may be Pareto improving even if it l
 to an equilibrium with rich and poor countries, with no special advantage to country
 size.
 </li>
-<li class='acc_hide pdfli spacepdf'><span class="title"><a href="http://andreamoro.net/_assets/papers/eca_external_appendix.pdf" target="_blank">
+<li class='acc_hide pdfli spacepdf'><span class="title"><a href="http://andreamoro.net/assets/papers/eca_external_appendix.pdf" target="_blank">
 External appendix
     </a>
   </span>
