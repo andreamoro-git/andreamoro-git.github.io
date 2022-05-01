@@ -32,9 +32,9 @@
 
 {% assign keywords = post.keywords | split: ','% }
 {% capture keysclass %}
-  {% for key in keywords %}
-    {{ key | slugify }}
-  {% endfor %}
+
+{% capture keysclass %}
+aaa
 {% endcapture %}
 
 {%- if post.pdfurl -%}
