@@ -1,7 +1,7 @@
 ---
 posttype: published
 type: article
-fields: "theory, discrimination, labor"
+fields: "theory, discrimination, labor, political economy"
 title: "Affirmative action in a competitive economy"
 author: "Moro, Andrea and Peter Norman"
 shortauthor: "(with Peter Norman)"
