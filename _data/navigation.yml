@@ -1,12 +1,12 @@
 - name: C.V.
-  link: {{ site.url }}#cv
+  link: #cv
 - name: Work in progress
-  link: {{ site.url }}#wip
+  link: #wip
 - name: Published papers
-  link: {{ site.url }}#published
+  link: #published
 - name: Other stuff
-  link: {{ site.url }}#other
+  link: #other
 - name: Tips
-  link: {{ site.url }}/blog/
+  link: blog/
 - name: Contact
-  link: {{ site.url }}#contact
+  link: #contact
