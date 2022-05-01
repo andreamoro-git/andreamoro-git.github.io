@@ -35,7 +35,7 @@
   {%- for key in keywords %}
     {{ key | slugify }}
   {% endfor -%}
-{% end capture}
+{% endcapture %}
 
 {%- if post.pdfurl -%}
 <li class="pdfli post {{ keysclass }}">
