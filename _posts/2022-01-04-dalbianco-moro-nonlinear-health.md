@@ -2,7 +2,7 @@
 posttype: work_in_progress
 type: article
 nocite: true
-keywords: "empirical, health, structural"
+fields: "empirical, health, structural"
 title: 'The Welfare Effects of Non-Linear Health Dynamics'
 author: '{Dal Bianco, Chiara} and Andrea Moro'
 shortauthor: ' with Chiara dal Bianco'

@@ -30,11 +30,11 @@
   {% assign month = post.date | date: ' %B ' %}
 {%- endif -%}
 
-{% assign keywords = post.keywords | split: ','% }
+{% assign fields = post.fields | split: ','% }
 {% capture keysclass %}
 
 {% capture keysclass -%}
-  {% for key in keywords %} {{ key | slugify }}
+  {% for key in fields %} {{ key | slugify }}
   {%- endfor %}
 {%- endcapture %}
 

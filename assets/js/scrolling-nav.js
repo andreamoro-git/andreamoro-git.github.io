@@ -66,4 +66,14 @@ jQuery(document).ready(function($) {
     $(this).parent().siblings('.cit-bibtex').slideToggle();
   });
 
+  var filter = $('.filter').click(function() {
+    var filterid = $(this)[0].id
+    if (filterid=='reset') {
+      $('li.post').show()
+    } else {
+      $('li.post').hide()
+      $('li.post.'+filterid).show()
+  }
+  });
+
 });

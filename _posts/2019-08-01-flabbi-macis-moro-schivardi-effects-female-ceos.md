@@ -1,7 +1,7 @@
 ---
 posttype: published
 type: article
-keywords: "empirical, labor, discrimination, reduced form"
+fields: "empirical, labor, discrimination, reduced form"
 title: "Do Female Executives Make a Difference? The Impact of Female Leadership on Gender Gaps and Firm Performance"
 author: "Flabbi, Luca and Mario Macis and Andrea Moro and Fabiano Schivardi"
 shortauthor: "(with Luca Flabbi, Mario Macis and Fabiano Schivardi)"

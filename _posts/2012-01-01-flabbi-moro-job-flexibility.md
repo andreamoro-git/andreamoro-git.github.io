@@ -1,7 +1,7 @@
 ---
 posttype: published
 type: article
-keywords: "empirical, labor, discrimination, structural"
+fields: "empirical, labor, discrimination, structural"
 title: "The effect of job flexibility on female labor market outcomes: Estimates from a search and bargaining model"
 author: "Flabbi, Luca and Andrea Moro"
 shortauthor: "(with Luca Flabbi)"

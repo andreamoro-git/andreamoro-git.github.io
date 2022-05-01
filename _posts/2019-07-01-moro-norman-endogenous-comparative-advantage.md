@@ -2,7 +2,7 @@
 posttype: published
 type: article
 author: "Moro, Andrea and Peter Norman"
-keywords: "theory, discrimination, international"
+fields: "theory, discrimination, international"
 shortauthor: "(with Peter Norman)"
 title: "Endogenous Comparative Advantage"
 journal: "The Scandinavian Journal of Economics"

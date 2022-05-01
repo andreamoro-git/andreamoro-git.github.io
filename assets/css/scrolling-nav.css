@@ -22,7 +22,7 @@ section {
   padding: 2rem 0 1rem 0;
 }
 
-h2.sectitle {
+.sectitle {
   margin-bottom: 2rem;
 }
 
@@ -157,4 +157,13 @@ ul.postpage {
 
 ul.postpage li {
 	margin-top: 1rem
+}
+
+a:not([href]):not([tabindex]) {
+  color: #5a8241;
+}
+
+a:not([href]):not([tabindex]):hover{
+  color: #6314CC;
+  text-decoration: underline;
 }

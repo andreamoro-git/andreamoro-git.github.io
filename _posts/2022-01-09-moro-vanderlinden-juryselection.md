@@ -1,7 +1,7 @@
 ---
 posttype: work_in_progress
 type: article
-keywords: "theory, political economy, law and economics, discrimination"
+fields: "theory, political economy, law and economics, discrimination"
 title: 'Exclusion of Extreme Jurors and Minority Representation: The Effect of Jury Selection Procedures'
 author: 'Moro, Andrea and Martin {Van der Linden}'
 shortauthor: '(with Martin Van der Linden)'
