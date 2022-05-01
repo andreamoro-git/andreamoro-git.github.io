@@ -7,6 +7,6 @@
 - name: Other stuff
   link: {{ site.url }}#other
 - name: Tips
-  link: {{ site.url }}blog/
+  link: {{ site.url }}/blog/
 - name: Contact
   link: {{ site.url }}#contact
