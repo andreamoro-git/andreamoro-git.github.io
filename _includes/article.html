@@ -33,11 +33,11 @@
 {% assign keywords = post.keywords | split: ','% }
 {% capture keysclass %}
 
-{% capture keysclass %}
+{% capture keysclass -%}
   {%- for key in keywords -%}
     {{ key | slugify }}
   {%- endfor -%}
-{% endcapture %}
+{%- endcapture %}
 
 {%- if post.pdfurl -%}
 <li class="pdfli post {{ keysclass }}">
