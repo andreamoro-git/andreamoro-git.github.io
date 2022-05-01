@@ -64,11 +64,11 @@ a:hover, .acc_trigger:hover, .info:hover {
 }
 
 .pdfli::marker, .pdf::before {
-  content: url(../assets/images/pdf.png);
+  content: url(/assets/images/pdf.png);
 }
 
 .codeli::marker {
-  content: url(../assets/images/code.png);
+  content: url(/assets/images/code.png);
 }
 
 .spacepdf {
