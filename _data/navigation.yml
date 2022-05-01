@@ -1,12 +1,12 @@
 - name: C.V.
-  link: #cv
+  link: \#cv
 - name: Work in progress
-  link: #wip
+  link: \#wip
 - name: Published papers
-  link: #published
+  link: \#published
 - name: Other stuff
-  link: #other
+  link: \#other
 - name: Tips
-  link: blog/
+  link: /blog/
 - name: Contact
-  link: #contact
+  link: \#contact
