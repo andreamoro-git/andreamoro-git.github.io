@@ -10,7 +10,7 @@ number: "1"
 pages: "81--95"
 year: "2012"
 publisher: "Elsevier"
-pdfurl: "http://www.andreamoro.net/perm/papers/the_effect_of_job_flexibility.pdf"
+pdfurl: "http://www.andreamoro.net/_assets/papers/the_effect_of_job_flexibility.pdf"
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
 This paper presents and estimates a search model of the labor market

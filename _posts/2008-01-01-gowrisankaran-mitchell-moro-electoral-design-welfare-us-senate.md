@@ -11,7 +11,7 @@ volume: "11"
 number: "1"
 pages: "1-17"
 keywords: "Term limits; Incumbency advantage; Elections; Selection; Tenure; Senate"
-pdfurl: "http://www.andreamoro.net/perm/papers/electoral_design_and_voter_welfare.pdf"
+pdfurl: "http://www.andreamoro.net/_assets/papers/electoral_design_and_voter_welfare.pdf"
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
 Since 1914, the U.S. Senate has been elected and incumbent senators

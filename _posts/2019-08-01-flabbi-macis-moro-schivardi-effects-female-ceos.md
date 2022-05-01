@@ -12,7 +12,7 @@ year: "2019"
 month: "August"
 doi: "10.1093/ej/uez012"
 url2: "https://doi.org/10.1093/ej/uez012"
-pdfurl: "https://andreamoro.net/perm/papers/femaleceo.pdf"
+pdfurl: "https://andreamoro.net/_assets/papers/femaleceo.pdf"
 ---
 
 <li class='acc_hide'> <div class="title">Abstract</div>
@@ -29,7 +29,7 @@ from female workers. The evidence suggests substantial costs of under-representa
 of women at the top of the corporate hierarchy.
 </li>
 <li class='acc_hide pdfli spacepdf'>
- <span class="title"><a href="perm/papers/femaleceo-webappendix.pdf" target="_blank">
+ <span class="title"><a href="_assets/papers/femaleceo-webappendix.pdf" target="_blank">
 External appendix 
     </a>
   </span>

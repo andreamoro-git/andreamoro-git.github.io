@@ -11,5 +11,5 @@ pages: "179-205"
 year: "1995"
 month: September
 publisher: "Elsevier"
-pdfurl: "https://andreamoro.net/perm/papers/dynamic-of-demographics-RE-95.pdf"
+pdfurl: "https://andreamoro.net/_assets/papers/dynamic-of-demographics-RE-95.pdf"
 ---

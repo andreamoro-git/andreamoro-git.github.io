@@ -11,7 +11,7 @@ journal: "Journal of Public Economics"
 volume: "92"
 number: "3-4"
 pages: "582-596"
-pdfurl: "http://www.andreamoro.net/perm/papers/the_performance_of_the_pivotal-voter_model.pdf"
+pdfurl: "http://www.andreamoro.net/_assets/papers/the_performance_of_the_pivotal-voter_model.pdf"
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
 This paper explores the ability of pivotal-voter models to explain voter behavior in small-scale elections

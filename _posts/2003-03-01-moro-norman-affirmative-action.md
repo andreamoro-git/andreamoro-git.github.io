@@ -11,7 +11,7 @@ month: March
 pages: "567-594"
 year: "2003"
 publisher: "Elsevier"
-pdfurl: "https://andreamoro.net/perm/papers/jpub2003.pdf"
+pdfurl: "https://andreamoro.net/_assets/papers/jpub2003.pdf"
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
 We consider a model of endogenous human capital formation with competitively

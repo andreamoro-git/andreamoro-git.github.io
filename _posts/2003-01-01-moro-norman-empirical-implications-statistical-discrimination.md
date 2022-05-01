@@ -9,7 +9,7 @@ year: 2003
 month: false
 volume: "71-72"
 pages: "399-417"
-pdfurl: "https://andreamoro.net/perm/papers/empirical_implications_of_statistical_discrimination.pdf"
+pdfurl: "https://andreamoro.net/_assets/papers/empirical_implications_of_statistical_discrimination.pdf"
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
 This paper investigates how lack of information may bias the investigator's
