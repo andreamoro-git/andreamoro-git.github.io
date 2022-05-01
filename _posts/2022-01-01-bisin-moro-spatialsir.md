@@ -1,7 +1,7 @@
 ---
 posttype: published
 type: article
-fields: "empirical, theory, covid-19"
+fields: "empirical, theory, covid-19, urban"
 title: 'JUE Insight: Learning Epidemiology by Doing: The Empirical Implications of a Spatial SIR Model with Behavioral Responses'
 journal: Journal of Urban Economics
 volume: 127

@@ -1,7 +1,7 @@
 ---
 posttype: published
 type: article
-fields: "empirical, theory, covid-19"
+fields: "empirical, theory, covid-19, urban"
 author: "Bisin, Alberto and Andrea Moro"
 shortauthor: "(with Alberto Bisin)"
 journal: "Journal of Economic Behavior & Organization"
