@@ -8,6 +8,12 @@
         </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+        {% for item in site.data.navigation %}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="{{ item.link }}">{{ item.name }}</a>
+          </li> 
+        {% endfor %}
+         <!--
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{{ site.url }}#cv">C.V.</a>
           </li>
@@ -26,6 +32,7 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{{ site.url }}#contact">Contact</a>
           </li>
+-->
         </ul>
       </div>
     </div>
