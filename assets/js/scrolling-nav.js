@@ -69,10 +69,10 @@ jQuery(document).ready(function($) {
   var filter = $('.filter').click(function() {
     var filterid = $(this)[0].id
     if (filterid=='reset') {
-      $('li.post').show()
+      $('li.post').slideDown()
     } else {
       $('li.post').hide()
-      $('li.post.'+filterid).show()
+      $('li.post.'+filterid).slideUp();
   }
   });
 
