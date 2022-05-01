@@ -167,3 +167,9 @@ a:not([href]):not([tabindex]):hover{
   color: #6314CC;
   text-decoration: underline;
 }
+
+.filterhl, .filterhl:hover {
+  font-weight: 800;
+  color: black!important;
+  text-decoration: none!important;
+}

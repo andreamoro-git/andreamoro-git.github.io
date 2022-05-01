@@ -67,6 +67,8 @@ jQuery(document).ready(function($) {
   });
 
   var filter = $('.filter').click(function() {
+    $('.filterhl').removeClass('filterhl')
+    $(this).addClass('filterhl')
     var filterid = $(this)[0].id
     if (filterid=='reset') {
       $('li.post').slideDown()
