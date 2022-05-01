@@ -2,7 +2,7 @@
 posttype: published
 type: article
 title: "Persistent Distortionary Policies with Asymmetric Information"
-fields: "theory"
+fields: "theory, political economy"
 author: "Mitchell, Matthew and Andrea Moro"
 shortauthor: "(with Matthew Mitchell)"
 year: "2006"
