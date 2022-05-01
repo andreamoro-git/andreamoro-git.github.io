@@ -34,8 +34,7 @@
 {% capture keysclass %}
 
 {% capture keysclass -%}
-  {% for key in keywords -%}
-    {{ key | slugify }}
+  {% for key in keywords %} {{ key | slugify }}
   {%- endfor %}
 {%- endcapture %}
 
