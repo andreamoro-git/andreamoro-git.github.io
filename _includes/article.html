@@ -26,17 +26,24 @@
 
 {%- if post.month -%}
   {% assign month = ' ' | append: post.month %}
-{%- elsif post.month != false -%} 
+{%- elsif post.month != false -%}
   {% assign month = post.date | date: ' %B ' %}
 {%- endif -%}
 
+{% assign keywords = post.keywords | split: ','% }
+{% capture keysclass %}
+  {%- for key in keywords %}
+    {{ key | slugify }}
+  {% endfor -%}
+{% end capture}
+
 {%- if post.pdfurl -%}
-<li class="pdfli post">
+<li class="pdfli post {{ keysclass }}">
   <a class="paper" href= {{ post.pdfurl }} target="_blank">
     {{ post.title }}
   </a>
 {%- else -%}
-<li class="post">
+<li class="post {{ keysclass }}">
   <span class="paper">{{ post.title }}</span>
 {%- endif -%}
   <ul>
