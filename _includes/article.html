@@ -34,9 +34,9 @@
 {% capture keysclass %}
 
 {% capture keysclass %}
-  {% for key in keywords %}
-    {{ key | slugify }}
-  {% endfor %}
+  {%- for key in keywords %}
+    {{ key | slugify }} 
+  {% endfor -%}
 {% endcapture %}
 
 {%- if post.pdfurl -%}
