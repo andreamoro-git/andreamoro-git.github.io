@@ -71,7 +71,7 @@ jQuery(document).ready(function($) {
     if (filterid=='reset') {
       $('li.post').slideDown()
     } else {
-      $('li.post').hide()
+      $('li.post').slideDown(10)
       $('li.post.'+filterid).slideUp();
   }
   });
