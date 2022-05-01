@@ -10,7 +10,7 @@
         <ul class="navbar-nav ml-auto">
         {% for item in site.data.navigation %}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ item.link }}">{{ item.name }}</a>
+            <a class="nav-link js-scroll-trigger" href="{{ site.url }}{{ item.link }}">{{ item.name }}</a>
           </li> 
         {% endfor %}
          <!--
