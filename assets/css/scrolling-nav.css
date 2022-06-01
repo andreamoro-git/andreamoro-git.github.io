@@ -18,6 +18,14 @@ header {
 	max-width: 75%;
 }
 
+@media screen and (max-width: 650px) {
+.col-lg-8 {
+	-ms-flex: 0 0 90%;
+	flex: 0 0 90%;
+	max-width: 90%;
+}
+}
+
 section {
   padding: 2rem 0 1rem 0;
 }
