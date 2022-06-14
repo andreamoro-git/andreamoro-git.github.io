@@ -1,6 +1,7 @@
 ---
 posttype: work_in_progress
 type: article
+nocite: true
 fields: "empirical, health, structural"
 title: "The Empirical Content of Models with Multiple Equilibria in Economies with Social Interactions"
 author: "Bisin, Alberto and Andrea Moro and Giorgio Topa"
