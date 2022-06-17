@@ -25,7 +25,7 @@ layout: default
 {% endif %}
 
 {% assign spliturl = page.url | split: '/' %}
-{% assign bibpostname = spliturl[4] | replace: '.html', '' %}
+{% assign bibpostname = spliturl[1] | replace: '.html', '' %}
 {% capture bibpostname %}{{ bibpostname }}{{ page.date | date: '-%Y' }}{% endcapture %}
 
 {%- if page.month -%}
@@ -149,6 +149,9 @@ layout: default
 <section>  
 </article>  
  
+aaa
+    {% include article.html %}
+aaa
   
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
