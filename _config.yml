@@ -24,6 +24,8 @@ website: "https://andreamoro.net"
 
 theme: "minima"
 
+permalink: /paper/:title:output_ext
+
 google_analytics: G-KCLJ7CCWC0
 
 rss: rss
