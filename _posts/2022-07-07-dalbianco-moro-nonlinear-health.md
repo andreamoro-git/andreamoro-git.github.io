@@ -1,13 +1,15 @@
 ---
 posttype: work_in_progress
 type: article
-nocite: true
+nocite: false
 fields: "empirical, health, structural"
 title: 'The Welfare Effects of Non-Linear Health Dynamics'
 author: '{Dal Bianco, Chiara} and Andrea Moro'
 shortauthor: ' with Chiara dal Bianco'
-journal: 'coming soon'
-month: false
+journal: 'working paper'
+pdfurl: 'assets/papers/he_welfare_effects_of_nonlinear_health_dynamics.pdf'
+month: July
+year: 2022
 ---
 
 <li class='acc_hide'> <div class="title">Abstract</div>
