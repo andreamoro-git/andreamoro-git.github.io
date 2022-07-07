@@ -7,7 +7,7 @@ title: 'The Welfare Effects of Non-Linear Health Dynamics'
 author: '{Dal Bianco, Chiara} and Andrea Moro'
 shortauthor: ' with Chiara dal Bianco'
 journal: 'working paper'
-pdfurl: 'assets/papers/he_welfare_effects_of_nonlinear_health_dynamics.pdf'
+pdfurl: 'https://andreamoro.net/assets/papers/he_welfare_effects_of_nonlinear_health_dynamics.pdf'
 month: July
 year: 2022
 ---
