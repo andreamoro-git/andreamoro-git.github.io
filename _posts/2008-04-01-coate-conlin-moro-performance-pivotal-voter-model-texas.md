@@ -5,7 +5,7 @@ title: "The performance of pivotal-voter models in small-scale elections:
   Evidence from Texas liquor referenda"
 fields: "empirical, political economy, structural"
 author: "Coate, Stephen and Conlin, Michael and Andrea Moro"
-shortauthor: "(with Stephen Coate and Michael Conline)"
+shortauthor: "(with Stephen Coate and Michael Conlin)"
 year: "2008"
 month: "April"
 journal: "Journal of Public Economics"
