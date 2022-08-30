@@ -5,7 +5,7 @@ fields: "empirical, theory, covid-19, urban"
 title: 'JUE Insight: Learning Epidemiology by Doing: The Empirical Implications of a Spatial SIR Model with Behavioral Responses'
 journal: Journal of Urban Economics
 volume: 127
-shortauthor: with Alberto Bisin
+shortauthor: " (with Alberto Bisin) "
 author: "Bisin, Alberto and Andrea Moro"
 pdfurl: http://andreamoro.net/assets/papers/spatialSIR.pdf
 ---
