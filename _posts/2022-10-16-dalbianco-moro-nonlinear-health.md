@@ -9,7 +9,7 @@ shortauthor: ' (with Chiara dal Bianco)'
 journal: 'arXiv/econ.GN working pape'
 volume: '2207.03816'
 pdfurl: 'https://andreamoro.net/assets/papers/the_welfare_effects_of_nonlinear_health_dynamics.pdf'
-month: July
+month: October
 year: 2022
 ---
 
