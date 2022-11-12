@@ -5,7 +5,7 @@ fields: "empirical, health, structural"
 title: 'The Welfare Effects of Non-Linear Health Dynamics'
 author: '{Dal Bianco, Chiara} and Andrea Moro'
 shortauthor: ' (with Chiara dal Bianco)'
-journal: 'arXiv/econ.GN working pape'
+journal: 'arXiv/econ.GN working paper'
 volume: '2207.03816'
 pdfurl: 'https://andreamoro.net/assets/papers/nonlinear_health.pdf'
 month: October
