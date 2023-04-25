@@ -1,7 +1,7 @@
 ---
 posttype: published
 type: article
-fields: "theory, discrimination, labor"
+fields: "theory, discrimination, labor, political economy"
 title: "A general equilibrium model of statistical
  discrimination"
 journal: "Journal of Economic Theory"
