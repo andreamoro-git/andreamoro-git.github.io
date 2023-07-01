@@ -15,6 +15,7 @@ pdfurl: 'http://andreamoro.net/assets/papers/juryselection.pdf'
   Struck more effectively excludes extreme jurors but leads to a worse representation of minorities.
   The advantage of Struck in terms of excluding extremes is sizable in a wide range of cases.
   In contrast, Strike and Replace better represents minorities only if the minority and majority are heavily polarized.
+Results are robust to assuming the parties statistically discriminate against jurors based on group identity.
 </li>
 <li class='acc_hide pdfli spacepdf'>
   <span class="title"><a href="http://andreamoro.net/assets/papers/juryselection-external-appendix.pdf" target="_blank">
