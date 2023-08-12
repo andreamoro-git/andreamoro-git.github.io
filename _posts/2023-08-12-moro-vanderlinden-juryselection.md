@@ -1,12 +1,13 @@
 ---
-posttype: work_in_progress
+posttype: published
 type: article
 fields: "theory, political economy, law and economics, discrimination"
 title: 'Exclusion of Extreme Jurors and Minority Representation: The Effect of Jury Selection Procedures'
 author: 'Moro, Andrea and Martin {Van der Linden}'
 shortauthor: '(with Martin Van der Linden)'
-journal: 'arXiv/econ.GN working paper'
-volume: '2102.07222'
+journal: 'The Journal of Law and Economics'
+volume: 'Forthcoming'
+year: '2023'
 pdfurl: 'http://andreamoro.net/assets/papers/juryselection.pdf'
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
@@ -20,6 +21,12 @@ Results are robust to assuming the parties statistically discriminate against ju
 <li class='acc_hide pdfli spacepdf'>
   <span class="title"><a href="http://andreamoro.net/assets/papers/juryselection-external-appendix.pdf" target="_blank">
     External appendix
+    </a>
+  </span>
+</li>
+<li class='acc_hide'>
+  <span class="title"><a href="https://github.com/andreamoro-git/JurySelection-Replication_Package" target="_blank">
+    Replication package 
     </a>
   </span>
 </li>
