@@ -24,7 +24,7 @@ Results are robust to assuming the parties statistically discriminate against ju
     </a>
   </span>
 </li>
-<li class='acc_hide'>
+<li class='acc_hide codeli spacepdf'>
   <span class="title"><a href="https://github.com/andreamoro-git/JurySelection-Replication_Package" target="_blank">
     Replication package 
     </a>
