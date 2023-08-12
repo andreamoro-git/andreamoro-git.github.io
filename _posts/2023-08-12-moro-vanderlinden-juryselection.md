@@ -7,6 +7,7 @@ author: 'Moro, Andrea and Martin {Van der Linden}'
 shortauthor: '(with Martin Van der Linden)'
 journal: 'The Journal of Law and Economics'
 volume: 'Forthcoming'
+month: ' '
 year: '2023'
 pdfurl: 'http://andreamoro.net/assets/papers/juryselection.pdf'
 ---
