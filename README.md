@@ -7,3 +7,4 @@ Theme: modified from [Scrolling Nav](https://startbootstrap.com/template-overvie
 ## Copyright and License
 
 Copyright 2013-2017 Released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/gh-pages/LICENSE) license.
+
