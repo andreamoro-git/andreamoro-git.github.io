@@ -8,8 +8,8 @@ shortauthor: ' (with Chiara dal Bianco)'
 journal: 'arXiv/econ.GN working paper'
 volume: '2207.03816'
 pdfurl: 'https://andreamoro.net/assets/papers/nonlinear_health.pdf'
-month: October
-year: 2022
+month: March
+year: 2024
 ---
 
 <li class='acc_hide'> <div class="title">Abstract</div>
