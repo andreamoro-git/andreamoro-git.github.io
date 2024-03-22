@@ -20,7 +20,7 @@ life-cycle model of consumption, savings, and labor force participation. After e
 parameters, we simulate the effects of health shocks on economic outcomes. We find that bad 
 health shocks have long-term adverse economic effects that are more extreme for those in poor health. 
 Furthermore, bad health shocks also increase the disparity of asset accumulation among this 
-group of people. A canonical model of health dynamics would not reveal these effects.
+group of people. A canonical model of health dynamics would not reveal these effects. 
 </li>
 <!-- <li class='acc_hide pdfli spacepdf'>
   <span class="title"><a href="http://andreamoro.net/assets/papers/nonlinear_health-external.pdf" target="_blank">
