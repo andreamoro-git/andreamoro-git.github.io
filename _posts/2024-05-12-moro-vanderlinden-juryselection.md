@@ -6,8 +6,10 @@ title: 'Exclusion of Extreme Jurors and Minority Representation: The Effect of J
 author: 'Moro, Andrea and Martin {Van der Linden}'
 shortauthor: '(with Martin Van der Linden)'
 journal: 'The Journal of Law and Economics'
-volume: 'Forthcoming'
-month: ' '
+volume: '67'
+issue: '2'
+month: 'May'
+pages: '295-336'
 year: '2024'
 pdfurl: 'http://andreamoro.net/assets/papers/juryselection.pdf'
 ---
