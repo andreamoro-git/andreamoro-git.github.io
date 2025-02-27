@@ -5,8 +5,8 @@ type: article
 fields: "empirical, health, structural"
 title: 'The effect of peremptory challenge reform on minority representation in juries and on trial outcomes'
 author: 'Andrea Moro'
-journal: '(coming soon)'
-#volume: '2207.03816'
+#journal: ''
+volume: '(coming soon)'
 #pdfurl: 'https://andreamoro.net/assets/papers/peremptory-reform.pdf'
 #month: January
 #year: 2025
