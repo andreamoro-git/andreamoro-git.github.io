@@ -1,3 +1,4 @@
 *.DS_Store
 .DS_Store
 andreamoro-git.github.io.code-workspace
+.vscode/settings.json
