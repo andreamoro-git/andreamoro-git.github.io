@@ -57,14 +57,14 @@ layout: default
         Vol. {{ page.volume}}
       {%- endif -%},
       {{ page.publisher }},
-    {%- else -%}
+    {%- elsif page.type=="article" -%}
       {%- if page.pdfurl -%}
         <a class="pdf text-white" href= {{ page.pdfurl }} target="_blank">
           <i>{{ page.journal }}</i>
         </a>
-     {%- else -%}
-      <i>{{ page.journal }}</i>
-    {%- endif -%}     
+      {%- else -%}
+        <i>{{ page.journal }}</i>
+      {%- endif -%}     
       {%- if page.volume %} {{ page.volume }}{%- endif -%}
       {%- if page.number -%} ({{ page.number }}){%- endif -%},
     {% endif %}
