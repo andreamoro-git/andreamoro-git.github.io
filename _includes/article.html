@@ -55,7 +55,7 @@
           Vol. {{ post.volume}}
         {%- endif -%},
         {{ post.publisher }},
-      {%- else -%}
+      {%- elsif post.type =="article" -%}
         <i>{{ post.journal }}</i>
         {%- if post.volume %} {{ post.volume }}{%- endif -%}
         {%- if post.number -%} ({{ post.number }}){%- endif -%},
