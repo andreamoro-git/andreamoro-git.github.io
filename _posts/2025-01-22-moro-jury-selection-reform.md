@@ -1,5 +1,6 @@
 ---
 posttype: work_in_progress
+nocite: true
 type: article
 fields: "empirical, health, structural"
 title: 'The effect of peremptory challenge reform on minority representation in juries and on trial outcomes'
