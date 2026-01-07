@@ -12,6 +12,11 @@ month: January
 year: 2026
 ---
 
+<li class='acc_hide '>
+  <span >
+    (previously distributed: under the title "The welfare effects of nonlinear health dynamics")
+  </span>
+</li>
 <li class='acc_hide'> <div class="title">Abstract</div>
 We study how nonlinear, state-dependent health dynamics shape economic behavior, inequality, and the evaluation of disability insurance at older ages.
 Using English panel data, we construct a continuous health index and estimate its dynamics with a flexible quantile-based method that allows persistence to vary
@@ -26,8 +31,3 @@ Finally, we find that the welfare losses of removing disability insurance are hi
     </a>
   </span>
 </li> -->
-<li class='acc_hide '>'>
-  <span class="title">
-    Previously distributed: under the title "The welfare effects of nonlinear health dynamics"
-  </span>
-</li>
