@@ -12,7 +12,7 @@ volume: "96"
 number: "1"
 pages: "387-393"
 url2: "https://EconPapers.repec.org/RePEc:aea:aecrev:v:96:y:2006:i:1:p:387-393"
-pdfurl: "http://www.andreamoro.net/assets/papers/persistent_distortionary_policies.pdf"
+pdfurl: "https://andreamoro.net/assets/papers/persistent_distortionary_policies.pdf"
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
 Why are distortionary policies used when seemingly Pareto improvements

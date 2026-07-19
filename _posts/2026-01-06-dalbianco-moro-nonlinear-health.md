@@ -26,7 +26,7 @@ Embedding the estimated process into a life-cycle model, we show that these stat
 Finally, we find that the welfare losses of removing disability insurance are highly heterogeneous across health types, and are overstated by a state-independent health process.
 </li>
 <!-- <li class='acc_hide pdfli spacepdf'>
-  <span class="title"><a href="http://andreamoro.net/assets/papers/nonlinear_health-external.pdf" target="_blank">
+  <span class="title"><a href="https://andreamoro.net/assets/papers/nonlinear_health-external.pdf" target="_blank">
     External appendix
     </a>
   </span>

@@ -1,0 +1,4 @@
+Sitemap: https://andreamoro.net/sitemap.xml
+
+User-agent: *
+Disallow: /assets/papers/the_welfare_effects_of_nonlinear_health_dynamics.pdf

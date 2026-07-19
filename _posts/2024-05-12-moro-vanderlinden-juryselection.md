@@ -11,7 +11,7 @@ issue: '2'
 month: 'May'
 pages: '295-336'
 year: '2024'
-pdfurl: 'http://andreamoro.net/assets/papers/juryselection.pdf'
+pdfurl: 'https://andreamoro.net/assets/papers/juryselection.pdf'
 ---
 <li class='acc_hide'> <div class="title">Abstract</div>
   We compare two jury selection procedures meant to safeguard against the inclusion of biased jurors that are perceived as causing minorities to be under-represented.
@@ -22,7 +22,7 @@ pdfurl: 'http://andreamoro.net/assets/papers/juryselection.pdf'
 Results are robust to assuming the parties statistically discriminate against jurors based on group identity.
 </li>
 <li class='acc_hide pdfli spacepdf'>
-  <span class="title"><a href="http://andreamoro.net/assets/papers/juryselection-external-appendix.pdf" target="_blank">
+  <span class="title"><a href="https://andreamoro.net/assets/papers/juryselection-external-appendix.pdf" target="_blank">
     External appendix
     </a>
   </span>

@@ -30,7 +30,7 @@ In all procedures, granting more challenges to the parties favors the prosecutio
 significantly increases conviction rates of Black defendants.
 </li>
 <!-- <li class='acc_hide pdfli spacepdf'>
-  <span class="title"><a href="http://andreamoro.net/assets/papers/nonlinear_health-external.pdf" target="_blank">
+  <span class="title"><a href="https://andreamoro.net/assets/papers/nonlinear_health-external.pdf" target="_blank">
     External appendix
     </a>
   </span>

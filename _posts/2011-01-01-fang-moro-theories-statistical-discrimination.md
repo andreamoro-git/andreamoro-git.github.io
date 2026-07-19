@@ -13,7 +13,7 @@ year: "2011"
 month: false
 issn: "1570-6435"
 doi: "https://doi.org/10.1016/B978-0-444-53187-2.00005-X"
-pdfurl: "http://andreamoro.net/assets/papers/survey-statdisc.pdf"
+pdfurl: "https://andreamoro.net/assets/papers/survey-statdisc.pdf"
 author: "Hanming Fang and Andrea Moro"
 shortauthor: "(with Hanming Fang)"
 keywords: "Affirmative Action, Discrimination"
